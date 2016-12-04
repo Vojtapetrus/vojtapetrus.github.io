@@ -12,7 +12,7 @@ h1 {
   font-size: 44px;
   line-height: 54px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 0px;
   text-shadow: none;
 }
@@ -22,7 +22,7 @@ h2 {
   color: #8a6d2f;
   font-size: 38px;
   line-height: 36px;
-  font-weight: 300;
+  font-weight: 500;
   text-shadow: none;
 }
 
@@ -88,7 +88,7 @@ p {
 }
 
 .button:hover {
-  background-color: #000;
+  background-color: #432043;
 }
 
 .field {
@@ -267,7 +267,7 @@ p {
 }
 
 .grey-heading {
-  color: rgba(0, 0, 0, .56);
+  color: #432043;
   text-shadow: none;
 }
 
@@ -297,7 +297,7 @@ p {
 }
 
 .twitter:hover {
-  background-color: #0098ff;
+  background-color: #fff;
 }
 
 .share {
@@ -305,7 +305,7 @@ p {
 }
 
 .share-min {
-  color: #000;
+  color: #fff;
 }
 
 @media (max-width: 991px) {
