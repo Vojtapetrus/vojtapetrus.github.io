@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="174px" height="174px" viewBox="0 0 174 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Jobble_mini_logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="19.6805497%" y1="8.95465934%" x2="50%" y2="99.999233%" id="linearGradient-1">
+            <stop stop-color="#F4B366" offset="0%"></stop>
+            <stop stop-color="#F97455" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Jobble_mini_logo" sketch:type="MSLayerGroup">
+            <g id="Page-1" sketch:type="MSShapeGroup">
+                <g id="Bubble">
+                    <path d="M40.433084,160.058748 L0.928442748,170.636885 L11.7403511,130.287481 C4.29554198,117.485863 0,102.60687 0,86.7237252 C0,38.8285649 38.8298931,0 86.7290382,0 C134.618885,0 173.454092,38.8285649 173.454092,86.7237252 C173.454092,134.618885 134.618885,173.45542 86.7290382,173.45542 C69.6956336,173.459405 53.8297557,168.535603 40.433084,160.058748" id="Fill-1" fill="url(#linearGradient-1)"></path>
+                    <g id="Oval-2" transform="translate(30.000000, 77.000000)" fill="#FFFFFF">
+                        <g id="path-3-link">
+                            <circle id="path-3" cx="10" cy="10" r="10"></circle>
+                        </g>
+                        <g id="path-3-link">
+                            <circle id="path-3" cx="10" cy="10" r="10"></circle>
+                        </g>
+                    </g>
+                    <g id="Oval-2" transform="translate(76.000000, 77.000000)" fill="#FFFFFF">
+                        <g id="path-5-link">
+                            <circle id="path-5" cx="10" cy="10" r="10"></circle>
+                        </g>
+                        <g id="path-5-link">
+                            <circle id="path-5" cx="10" cy="10" r="10"></circle>
+                        </g>
+                    </g>
+                    <g id="Oval-2" transform="translate(123.000000, 77.000000)" fill="#FFFFFF">
+                        <g id="path-7-link">
+                            <circle id="path-7" cx="10" cy="10" r="10"></circle>
+                        </g>
+                        <g id="path-7-link">
+                            <circle id="path-7" cx="10" cy="10" r="10"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

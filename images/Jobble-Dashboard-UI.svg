@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="1024px" viewBox="0 0 1440 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Desktop HD</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="27.059505%" y1="31.0625937%" x2="81.7867899%" y2="79.1251842%" id="linearGradient-1">
+            <stop stop-color="#774377" offset="0%"></stop>
+            <stop stop-color="#422042" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feComposite in="shadowBlurInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.873565051   0 0 0 0 0.873565051   0 0 0 0 0.873565051  0 0 0 0.7 0" in="shadowInnerInner1" type="matrix" result="shadowMatrixInner1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="19.6805497%" y1="8.95465934%" x2="50%" y2="99.999233%" id="linearGradient-3">
+            <stop stop-color="#F4B366" offset="0%"></stop>
+            <stop stop-color="#F97455" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="50%" x2="50%" y2="183.10707%" id="linearGradient-4">
+            <stop stop-color="#F4B366" offset="0%"></stop>
+            <stop stop-color="#F97455" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(-1.000000, -18.000000)">
+                <g id="GOALS-+-CATEGORY--+-LAST-MODIFIED-" transform="translate(311.000000, 314.000000)" font-weight="633" font-family="Lato" fill="#000000" font-size="11" sketch:type="MSTextLayer">
+                    <text id="JOBS" letter-spacing="1.69230771">
+                        <tspan x="0" y="11">JOBS</tspan>
+                    </text>
+                    <text id="CATEGORY-" letter-spacing="1.4666667">
+                        <tspan x="557.5" y="12">CATEGORY </tspan>
+                    </text>
+                    <text id="POSTED-" letter-spacing="1.4666667">
+                        <tspan x="805" y="12">POSTED </tspan>
+                    </text>
+                </g>
+                <g id="GOALS-+-CATEGORY--+-LAST-MODIFIED--Copy" transform="translate(1225.000000, 968.000000)" font-weight="633" font-family="Avenir" letter-spacing="2" sketch:type="MSTextLayer" font-size="11" sketch:alignment="middle" fill="#A8A8A8">
+                    <text id="HELP-">
+                        <tspan x="3.849" y="11">HELP </tspan>
+                    </text>
+                    <text id="PRIVACY-">
+                        <tspan x="64.576" y="11">PRIVACY </tspan>
+                    </text>
+                </g>
+                <g id="Goal-One-Copy" transform="translate(254.250000, 352.000000)">
+                    <g id="Action-Goal-Button" transform="translate(57.000000, 56.000000)">
+                        <rect id="Rectangle-161" stroke="#DDDDDD" stroke-width="0.3" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="78" height="12" rx="2"></rect>
+                        <text id="APPLY" sketch:type="MSTextLayer" font-family="Lato" font-size="7" font-weight="420" sketch:alignment="middle" letter-spacing="0.291666657" fill="#000000">
+                            <tspan x="27.4738334" y="8.44936442">APPLY</tspan>
+                        </text>
+                    </g>
+                    <g id="Log" transform="translate(150.000000, 56.000000)">
+                        <text id="LOG" sketch:type="MSTextLayer" font-family="Avenir" font-size="7" font-weight="420" sketch:alignment="middle" letter-spacing="0.291666657" fill="#000000">
+                            <tspan x="11.611" y="8.44936442">LOG</tspan>
+                        </text>
+                        <rect id="Rectangle-161" stroke="#DFDFDF" stroke-width="0.3" sketch:type="MSShapeGroup" x="0" y="0" width="39" height="12" rx="2"></rect>
+                    </g>
+                    <path d="M0,81.5 L1065,81.5" id="Line" stroke="#E2E2E2" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                    <g id="Rectangle-12-+-Vote" transform="translate(2.500000, 0.000000)">
+                        <g id="Vote" transform="translate(0.000000, 0.651163)">
+                            <path d="M10.8963835,44.8907363 C8.40011947,42.3944723 4.97231269,38.9666655 4.97231269,38.9666655 C3.95893675,37.9532896 2.30675588,37.9499606 1.2897749,38.9669416 L1.3533907,38.9033258 C0.333235814,39.9234807 0.330388263,41.5736051 1.3399414,42.5960709 L8.38824128,49.7345221 C8.94574295,50.2991545 9.69333184,50.5458931 10.4175408,50.4753793 C11.3299694,50.8203571 12.4000726,50.6254435 13.1344036,49.8911125 L20.1837392,42.8417768 C21.1832972,41.8422188 21.1903817,40.2286997 20.184,39.222318 C19.184586,38.222904 17.5637308,38.223389 16.5645411,39.2225787 L10.8963835,44.8907363 Z" id="Rectangle-8-Copy-2" stroke="#D2D2D2" opacity="0.96318095" sketch:type="MSShapeGroup"></path>
+                            <path d="M10.8963835,9.08260939 C8.40011947,6.58634535 4.97231269,3.15853857 4.97231269,3.15853857 C3.95893675,2.14516263 2.30675588,2.14183371 1.2897749,3.15881469 L1.3533907,3.09519889 C0.333235814,4.11535377 0.330388263,5.76547817 1.3399414,6.78794399 L8.38824128,13.9263951 C8.94574295,14.4910275 9.69333184,14.7377662 10.4175408,14.6672523 C11.3299694,15.0122302 12.4000726,14.8173166 13.1344036,14.0829855 L20.1837392,7.03364988 C21.1832972,6.03409192 21.1903817,4.42057273 20.184,3.41419104 C19.184586,2.41477708 17.5637308,2.41526208 16.5645411,3.41445177 L10.8963835,9.08260939 Z" id="Rectangle-8-Copy-3" opacity="0.96318095" fill="#50E3C2" sketch:type="MSShapeGroup" transform="translate(10.749780, 8.607564) scale(1, -1) translate(-10.749780, -8.607564) "></path>
+                            <text id="18" sketch:type="MSTextLayer" font-family="Lato" font-size="10" font-weight="686" sketch:alignment="middle" line-spacing="10" fill="#010911">
+                                <tspan x="3.74977988" y="29.5697674">18</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Goal-Activity" transform="translate(204.000000, 56.000000)" sketch:type="MSShapeGroup">
+                        <rect id="Rectangle-161" stroke="#DDDDDD" stroke-width="0.3" fill="#FFFFFF" x="0" y="0" width="30" height="12" rx="2"></rect>
+                        <g id="Oval-34-+-Oval-34-Copy-+-Oval-34-Copy-2" transform="translate(8.000000, 5.000000)" fill="#797979">
+                            <circle id="Oval-34" cx="1" cy="1" r="1"></circle>
+                            <circle id="Oval-34-Copy" cx="7" cy="1" r="1"></circle>
+                            <circle id="Oval-34-Copy-2" cx="13" cy="1" r="1"></circle>
+                        </g>
+                    </g>
+                    <g id="Goal-+-Description" transform="translate(57.000000, 3.000000)"></g>
+                    <text id="#agriculture" sketch:type="MSTextLayer" font-family="Lato" font-size="16" font-weight="420" line-spacing="19" letter-spacing="0.333333343" fill="#000000">
+                        <tspan x="613.5" y="23.266">#agriculture</tspan>
+                    </text>
+                    <text id="02/12/2016,-2:23pm" sketch:type="MSTextLayer" font-family="Lato" font-size="16" font-weight="420" line-spacing="19" letter-spacing="0.333333343" fill="#000000">
+                        <tspan x="862" y="24">02/12/2016, 2:23pm</tspan>
+                    </text>
+                    <text id="$100-per-week.-" sketch:type="MSTextLayer" font-family="Lato" font-size="10" font-weight="260" line-spacing="14" letter-spacing="0.416666687" fill="#9B9B9B">
+                        <tspan x="57" y="45">$100 per week. </tspan>
+                    </text>
+                    <text id="Fruit-picker-on-fami" sketch:type="MSTextLayer" font-family="Lato" font-size="16" font-weight="420" line-spacing="19" letter-spacing="0.333333343" fill="#000000">
+                        <tspan x="56" y="24">Fruit picker on family farm</tspan>
+                    </text>
+                </g>
+                <g id="Goal-One-Copy-4" transform="translate(254.750000, 667.000000)">
+                    <g id="Action-Goal-Button" transform="translate(57.000000, 56.000000)">
+                        <rect id="Rectangle-161" stroke="#DDDDDD" stroke-width="0.3" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="78" height="12" rx="2"></rect>
+                        <text id="APPLY" sketch:type="MSTextLayer" font-family="Lato" font-size="7" font-weight="420" sketch:alignment="middle" letter-spacing="0.25" fill="#000000">
+                            <tspan x="27.578" y="8.44936442">APPLY</tspan>
+                        </text>
+                    </g>
+                    <g id="Log" transform="translate(150.000000, 56.000000)">
+                        <text id="LOG" sketch:type="MSTextLayer" font-family="Avenir" font-size="7" font-weight="420" sketch:alignment="middle" letter-spacing="0.291666657" fill="#000000">
+                            <tspan x="11.611" y="8.44936442">LOG</tspan>
+                        </text>
+                        <rect id="Rectangle-161" stroke="#DFDFDF" stroke-width="0.3" sketch:type="MSShapeGroup" x="0" y="0" width="39" height="12" rx="2"></rect>
+                    </g>
+                    <path d="M0,81.5 L1065,81.5" id="Line" stroke="#E2E2E2" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                    <g id="Rectangle-12-+-Vote" transform="translate(2.500000, 0.000000)">
+                        <g id="Vote" transform="translate(0.000000, 0.651163)">
+                            <path d="M11.3972102,44.391563 C8.96751429,41.9618671 5.97231269,38.9666655 5.97231269,38.9666655 C4.95893675,37.9532896 3.30675588,37.9499606 2.2897749,38.9669416 L2.3533907,38.9033258 C1.33323581,39.9234807 1.33038826,41.5736051 2.3399414,42.5960709 L9.28977251,49.6347938 C9.35815173,49.7238893 9.43320539,49.8096338 9.51494474,49.8913732 C10.5143587,50.8907872 12.1352139,50.8903022 13.1344036,49.8911125 L20.1837392,42.8417768 C21.1832972,41.8422188 21.1903817,40.2286997 20.184,39.222318 C19.184586,38.222904 17.5637308,38.223389 16.5645411,39.2225787 L11.3963835,44.3907363 Z" id="Rectangle-8-Copy-2" opacity="0.96318095" fill="#F95B45" sketch:type="MSShapeGroup"></path>
+                            <path d="M10.8963835,9.08260939 C8.40011947,6.58634535 4.97231269,3.15853857 4.97231269,3.15853857 C3.95893675,2.14516263 2.30675588,2.14183371 1.2897749,3.15881469 L1.3533907,3.09519889 C0.333235814,4.11535377 0.330388263,5.76547817 1.3399414,6.78794399 L8.38824128,13.9263951 C8.94574295,14.4910275 9.69333184,14.7377662 10.4175408,14.6672523 C11.3299694,15.0122302 12.4000726,14.8173166 13.1344036,14.0829855 L20.1837392,7.03364988 C21.1832972,6.03409192 21.1903817,4.42057273 20.184,3.41419104 C19.184586,2.41477708 17.5637308,2.41526208 16.5645411,3.41445177 L10.8963835,9.08260939 Z" id="Rectangle-8-Copy-3" stroke="#D2D2D2" opacity="0.96318095" sketch:type="MSShapeGroup" transform="translate(10.749780, 8.607564) scale(1, -1) translate(-10.749780, -8.607564) "></path>
+                            <text id="10" sketch:type="MSTextLayer" font-family="Lato" font-size="10" font-weight="686" sketch:alignment="middle" line-spacing="10" fill="#010911">
+                                <tspan x="3.74977988" y="29.5697674">10</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Goal-Activity" transform="translate(204.000000, 56.000000)" sketch:type="MSShapeGroup">
+                        <rect id="Rectangle-161" stroke="#DDDDDD" stroke-width="0.3" fill="#FFFFFF" x="0" y="0" width="30" height="12" rx="2"></rect>
+                        <g id="Oval-34-+-Oval-34-Copy-+-Oval-34-Copy-2" transform="translate(8.000000, 5.000000)" fill="#797979">
+                            <circle id="Oval-34" cx="1" cy="1" r="1"></circle>
+                            <circle id="Oval-34-Copy" cx="7" cy="1" r="1"></circle>
+                            <circle id="Oval-34-Copy-2" cx="13" cy="1" r="1"></circle>
+                        </g>
+                    </g>
+                    <g id="Goal-+-Description" transform="translate(57.000000, 3.000000)"></g>
+                    <text id="#commercial" sketch:type="MSTextLayer" font-family="Lato" font-size="16" font-weight="420" line-spacing="19" letter-spacing="0.333333343" fill="#000000">
+                        <tspan x="613.5" y="23.266">#commercial</tspan>
+                    </text>
+                    <text id="23/11/2016,-5:45pm" sketch:type="MSTextLayer" font-family="Lato" font-size="16" font-weight="420" line-spacing="19" letter-spacing="0.333333343" fill="#000000">
+                        <tspan x="862" y="24">23/11/2016, 5:45pm</tspan>
+                    </text>
+                    <text id="$175-per-week" sketch:type="MSTextLayer" font-family="Avenir" font-size="10" font-weight="260" line-spacing="14" letter-spacing="0.416666687" fill="#9B9B9B">
+                        <tspan x="57" y="45">$175 per week</tspan>
+                    </text>
+                    <text id="Sales-assistant" sketch:type="MSTextLayer" font-family="Lato" font-size="16" font-weight="420" line-spacing="19" letter-spacing="0.333333343" fill="#000000">
+                        <tspan x="56" y="24">Sales assistant</tspan>
+                    </text>
+                </g>
+                <g id="Goal-One-Copy-2" transform="translate(254.250000, 457.000000)">
+                    <g id="Action-Goal-Button" transform="translate(57.000000, 56.000000)">
+                        <rect id="Rectangle-161" stroke="#DDDDDD" stroke-width="0.3" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="78" height="12" rx="2"></rect>
+                        <text id="APPLY" sketch:type="MSTextLayer" font-family="Lato" font-size="7" font-weight="420" sketch:alignment="middle" letter-spacing="0.25" fill="#000000">
+                            <tspan x="27.578" y="8.44936442">APPLY</tspan>
+                        </text>
+                    </g>
+                    <g id="Log" transform="translate(150.000000, 56.000000)">
+                        <text id="LOG" sketch:type="MSTextLayer" font-family="Avenir" font-size="7" font-weight="420" sketch:alignment="middle" letter-spacing="0.291666657" fill="#000000">
+                            <tspan x="11.611" y="8.44936442">LOG</tspan>
+                        </text>
+                        <rect id="Rectangle-161" stroke="#DFDFDF" stroke-width="0.3" sketch:type="MSShapeGroup" x="0" y="0" width="39" height="12" rx="2"></rect>
+                    </g>
+                    <path d="M0,81.5 L1065,81.5" id="Line" stroke="#E2E2E2" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                    <g id="Rectangle-12-+-Vote" transform="translate(2.500000, 0.000000)">
+                        <g id="Vote" transform="translate(0.000000, 0.651163)">
+                            <path d="M10.8963835,44.8907363 C8.40011947,42.3944723 4.97231269,38.9666655 4.97231269,38.9666655 C3.95893675,37.9532896 2.30675588,37.9499606 1.2897749,38.9669416 L1.3533907,38.9033258 C0.333235814,39.9234807 0.330388263,41.5736051 1.3399414,42.5960709 L8.38824128,49.7345221 C8.94574295,50.2991545 9.69333184,50.5458931 10.4175408,50.4753793 C11.3299694,50.8203571 12.4000726,50.6254435 13.1344036,49.8911125 L20.1837392,42.8417768 C21.1832972,41.8422188 21.1903817,40.2286997 20.184,39.222318 C19.184586,38.222904 17.5637308,38.223389 16.5645411,39.2225787 L10.8963835,44.8907363 Z" id="Rectangle-8-Copy-2" stroke="#D2D2D2" opacity="0.96318095" sketch:type="MSShapeGroup"></path>
+                            <path d="M10.8963835,9.08260939 C8.40011947,6.58634535 4.97231269,3.15853857 4.97231269,3.15853857 C3.95893675,2.14516263 2.30675588,2.14183371 1.2897749,3.15881469 L1.3533907,3.09519889 C0.333235814,4.11535377 0.330388263,5.76547817 1.3399414,6.78794399 L8.38824128,13.9263951 C8.94574295,14.4910275 9.69333184,14.7377662 10.4175408,14.6672523 C11.3299694,15.0122302 12.4000726,14.8173166 13.1344036,14.0829855 L20.1837392,7.03364988 C21.1832972,6.03409192 21.1903817,4.42057273 20.184,3.41419104 C19.184586,2.41477708 17.5637308,2.41526208 16.5645411,3.41445177 L10.8963835,9.08260939 Z" id="Rectangle-8-Copy-3" opacity="0.96318095" fill="#50E3C2" sketch:type="MSShapeGroup" transform="translate(10.749780, 8.607564) scale(1, -1) translate(-10.749780, -8.607564) "></path>
+                            <text id="17" sketch:type="MSTextLayer" font-family="Lato" font-size="10" font-weight="686" sketch:alignment="middle" line-spacing="10" fill="#010911">
+                                <tspan x="3.74977988" y="29.5697674">17</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Goal-Activity" transform="translate(204.000000, 56.000000)" sketch:type="MSShapeGroup">
+                        <rect id="Rectangle-161" stroke="#DDDDDD" stroke-width="0.3" fill="#FFFFFF" x="0" y="0" width="30" height="12" rx="2"></rect>
+                        <g id="Oval-34-+-Oval-34-Copy-+-Oval-34-Copy-2" transform="translate(8.000000, 5.000000)" fill="#797979">
+                            <circle id="Oval-34" cx="1" cy="1" r="1"></circle>
+                            <circle id="Oval-34-Copy" cx="7" cy="1" r="1"></circle>
+                            <circle id="Oval-34-Copy-2" cx="13" cy="1" r="1"></circle>
+                        </g>
+                    </g>
+                    <g id="Goal-+-Description" transform="translate(57.000000, 3.000000)"></g>
+                    <text id="#industrial" sketch:type="MSTextLayer" font-family="Lato" font-size="16" font-weight="420" line-spacing="19" letter-spacing="0.333333343" fill="#000000">
+                        <tspan x="613.5" y="23.266">#industrial</tspan>
+                    </text>
+                    <text id="01/12/2016,-4:23pm" sketch:type="MSTextLayer" font-family="Lato" font-size="16" font-weight="420" line-spacing="19" letter-spacing="0.333333343" fill="#000000">
+                        <tspan x="862" y="24">01/12/2016, 4:23pm</tspan>
+                    </text>
+                    <text id="$240-per-week" sketch:type="MSTextLayer" font-family="Lato" font-size="10" font-weight="260" line-spacing="14" letter-spacing="0.416666687" fill="#9B9B9B">
+                        <tspan x="57" y="45">$240 per week</tspan>
+                    </text>
+                    <text id="Heavy-machine-assemb" sketch:type="MSTextLayer" font-family="Lato" font-size="16" font-weight="420" line-spacing="19" letter-spacing="0.333333343" fill="#000000">
+                        <tspan x="56" y="24">Heavy machine assembler for car company</tspan>
+                    </text>
+                </g>
+                <g id="Goal-One-Copy-3" transform="translate(254.750000, 562.000000)">
+                    <g id="Action-Goal-Button" transform="translate(57.000000, 56.000000)">
+                        <rect id="Rectangle-161" stroke="#DDDDDD" stroke-width="0.3" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="78" height="12" rx="2"></rect>
+                        <text id="APPLY" sketch:type="MSTextLayer" font-family="Lato" font-size="7" font-weight="420" sketch:alignment="middle" letter-spacing="0.25" fill="#000000">
+                            <tspan x="27.578" y="8.44936442">APPLY</tspan>
+                        </text>
+                    </g>
+                    <g id="Log" transform="translate(150.000000, 56.000000)">
+                        <text id="LOG" sketch:type="MSTextLayer" font-family="Avenir" font-size="7" font-weight="420" sketch:alignment="middle" letter-spacing="0.291666657" fill="#000000">
+                            <tspan x="11.611" y="8.44936442">LOG</tspan>
+                        </text>
+                        <rect id="Rectangle-161" stroke="#DFDFDF" stroke-width="0.3" sketch:type="MSShapeGroup" x="0" y="0" width="39" height="12" rx="2"></rect>
+                    </g>
+                    <path d="M0,81.5 L1065,81.5" id="Line" stroke="#E2E2E2" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                    <g id="Rectangle-12-+-Vote" transform="translate(2.500000, 0.000000)">
+                        <g id="Vote" transform="translate(0.000000, 0.651163)">
+                            <path d="M11.3963835,44.3907363 C8.96683499,41.9611878 5.97231269,38.9666655 5.97231269,38.9666655 C4.95893675,37.9532896 3.30675588,37.9499606 2.2897749,38.9669416 L2.3533907,38.9033258 C1.33323581,39.9234807 1.33038826,41.5736051 2.3399414,42.5960709 L9.28977251,49.6347938 C9.35815173,49.7238893 9.43320539,49.8096338 9.51494474,49.8913732 C10.5143587,50.8907872 12.1352139,50.8903022 13.1344036,49.8911125 L20.1837392,42.8417768 C21.1832972,41.8422188 21.1903817,40.2286997 20.184,39.222318 C19.184586,38.222904 17.5637308,38.223389 16.5645411,39.2225787 L11.3963835,44.3907363 Z" id="Rectangle-8-Copy-2" opacity="0.96318095" fill="#F95B45" sketch:type="MSShapeGroup"></path>
+                            <path d="M10.8963835,9.08260939 C8.40011947,6.58634535 4.97231269,3.15853857 4.97231269,3.15853857 C3.95893675,2.14516263 2.30675588,2.14183371 1.2897749,3.15881469 L1.3533907,3.09519889 C0.333235814,4.11535377 0.330388263,5.76547817 1.3399414,6.78794399 L8.38824128,13.9263951 C8.94574295,14.4910275 9.69333184,14.7377662 10.4175408,14.6672523 C11.3299694,15.0122302 12.4000726,14.8173166 13.1344036,14.0829855 L20.1837392,7.03364988 C21.1832972,6.03409192 21.1903817,4.42057273 20.184,3.41419104 C19.184586,2.41477708 17.5637308,2.41526208 16.5645411,3.41445177 L10.8963835,9.08260939 Z" id="Rectangle-8-Copy-3" stroke="#D2D2D2" opacity="0.96318095" sketch:type="MSShapeGroup" transform="translate(10.749780, 8.607564) scale(1, -1) translate(-10.749780, -8.607564) "></path>
+                            <text id="12" sketch:type="MSTextLayer" font-family="Lato" font-size="10" font-weight="686" sketch:alignment="middle" line-spacing="10" fill="#010911">
+                                <tspan x="3.74977988" y="29.5697674">12</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Goal-Activity" transform="translate(204.000000, 56.000000)" sketch:type="MSShapeGroup">
+                        <rect id="Rectangle-161" stroke="#DDDDDD" stroke-width="0.3" fill="#FFFFFF" x="0" y="0" width="30" height="12" rx="2"></rect>
+                        <g id="Oval-34-+-Oval-34-Copy-+-Oval-34-Copy-2" transform="translate(8.000000, 5.000000)" fill="#797979">
+                            <circle id="Oval-34" cx="1" cy="1" r="1"></circle>
+                            <circle id="Oval-34-Copy" cx="7" cy="1" r="1"></circle>
+                            <circle id="Oval-34-Copy-2" cx="13" cy="1" r="1"></circle>
+                        </g>
+                    </g>
+                    <g id="Goal-+-Description" transform="translate(57.000000, 3.000000)"></g>
+                    <text id="#manufacturing" sketch:type="MSTextLayer" font-family="Lato" font-size="16" font-weight="420" line-spacing="19" letter-spacing="0.333333343" fill="#000000">
+                        <tspan x="613.5" y="23.266">#manufacturing</tspan>
+                    </text>
+                    <text id="01/12/2016,-4:10pm" sketch:type="MSTextLayer" font-family="Lato" font-size="16" font-weight="420" line-spacing="19" letter-spacing="0.333333343" fill="#000000">
+                        <tspan x="862" y="24">01/12/2016, 4:10pm</tspan>
+                    </text>
+                    <text id="$200" sketch:type="MSTextLayer" font-family="Lato" font-size="10" font-weight="260" line-spacing="14" letter-spacing="0.416666687" fill="#9B9B9B">
+                        <tspan x="57" y="45">$200</tspan>
+                    </text>
+                    <text id="Wood-machinist" sketch:type="MSTextLayer" font-family="Lato" font-size="16" font-weight="420" line-spacing="19" letter-spacing="0.333333343" fill="#000000">
+                        <tspan x="56" y="24">Wood machinist</tspan>
+                    </text>
+                </g>
+                <rect id="Rectangle-215" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" transform="translate(85.500000, 721.500000) rotate(-90.000000) translate(-85.500000, -721.500000) " x="-636" y="637" width="1443" height="169"></rect>
+                <g id="Goal-One-Copy-5" transform="translate(254.750000, 772.000000)">
+                    <g id="Action-Goal-Button" transform="translate(57.000000, 56.000000)">
+                        <rect id="Rectangle-161" stroke="#DDDDDD" stroke-width="0.3" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="78" height="12" rx="2"></rect>
+                        <text id="APPLY" sketch:type="MSTextLayer" font-family="Lato" font-size="7" font-weight="420" sketch:alignment="middle" letter-spacing="0.25" fill="#000000">
+                            <tspan x="27.578" y="8.44936442">APPLY</tspan>
+                        </text>
+                    </g>
+                    <g id="Log" transform="translate(150.000000, 56.000000)">
+                        <text id="LOG" sketch:type="MSTextLayer" font-family="Avenir" font-size="7" font-weight="420" sketch:alignment="middle" letter-spacing="0.291666657" fill="#000000">
+                            <tspan x="11.611" y="8.44936442">LOG</tspan>
+                        </text>
+                        <rect id="Rectangle-161" stroke="#DFDFDF" stroke-width="0.3" sketch:type="MSShapeGroup" x="0" y="0" width="39" height="12" rx="2"></rect>
+                    </g>
+                    <path d="M0,81.5 L1065,81.5" id="Line" stroke="#E2E2E2" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                    <g id="Rectangle-12-+-Vote" transform="translate(2.500000, 0.000000)">
+                        <g id="Vote" transform="translate(0.000000, 0.651163)">
+                            <path d="M11.3972102,44.391563 C8.96751429,41.9618671 5.97231269,38.9666655 5.97231269,38.9666655 C4.95893675,37.9532896 3.30675588,37.9499606 2.2897749,38.9669416 L2.3533907,38.9033258 C1.33323581,39.9234807 1.33038826,41.5736051 2.3399414,42.5960709 L9.28977251,49.6347938 C9.35815173,49.7238893 9.43320539,49.8096338 9.51494474,49.8913732 C10.5143587,50.8907872 12.1352139,50.8903022 13.1344036,49.8911125 L20.1837392,42.8417768 C21.1832972,41.8422188 21.1903817,40.2286997 20.184,39.222318 C19.184586,38.222904 17.5637308,38.223389 16.5645411,39.2225787 L11.3963835,44.3907363 Z" id="Rectangle-8-Copy-2" stroke="#D2D2D2" opacity="0.96318095" sketch:type="MSShapeGroup"></path>
+                            <path d="M10.8963835,9.08260939 C8.40011947,6.58634535 4.97231269,3.15853857 4.97231269,3.15853857 C3.95893675,2.14516263 2.30675588,2.14183371 1.2897749,3.15881469 L1.3533907,3.09519889 C0.333235814,4.11535377 0.330388263,5.76547817 1.3399414,6.78794399 L8.38824128,13.9263951 C8.94574295,14.4910275 9.69333184,14.7377662 10.4175408,14.6672523 C11.3299694,15.0122302 12.4000726,14.8173166 13.1344036,14.0829855 L20.1837392,7.03364988 C21.1832972,6.03409192 21.1903817,4.42057273 20.184,3.41419104 C19.184586,2.41477708 17.5637308,2.41526208 16.5645411,3.41445177 L10.8963835,9.08260939 Z" id="Rectangle-8-Copy-3" opacity="0.96318095" fill="#50E3C2" sketch:type="MSShapeGroup" transform="translate(10.749780, 8.607564) scale(1, -1) translate(-10.749780, -8.607564) "></path>
+                            <text id="4" sketch:type="MSTextLayer" font-family="Lato" font-size="10" font-weight="686" sketch:alignment="middle" line-spacing="10" fill="#010911">
+                                <tspan x="3.74977988" y="29.5697674">4</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Goal-Activity" transform="translate(204.000000, 56.000000)" sketch:type="MSShapeGroup">
+                        <rect id="Rectangle-161" stroke="#DDDDDD" stroke-width="0.3" fill="#FFFFFF" x="0" y="0" width="30" height="12" rx="2"></rect>
+                        <g id="Oval-34-+-Oval-34-Copy-+-Oval-34-Copy-2" transform="translate(8.000000, 5.000000)" fill="#797979">
+                            <circle id="Oval-34" cx="1" cy="1" r="1"></circle>
+                            <circle id="Oval-34-Copy" cx="7" cy="1" r="1"></circle>
+                            <circle id="Oval-34-Copy-2" cx="13" cy="1" r="1"></circle>
+                        </g>
+                    </g>
+                    <g id="Goal-+-Description" transform="translate(57.000000, 3.000000)"></g>
+                    <text id="#sanitation" sketch:type="MSTextLayer" font-family="Lato" font-size="16" font-weight="420" line-spacing="19" letter-spacing="0.333333343" fill="#000000">
+                        <tspan x="613.5" y="23.266">#sanitation</tspan>
+                    </text>
+                    <text id="27/11/2016,-6:30pm" sketch:type="MSTextLayer" font-family="Lato" font-size="16" font-weight="420" line-spacing="19" letter-spacing="0.333333343" fill="#000000">
+                        <tspan x="862" y="24">27/11/2016, 6:30pm</tspan>
+                    </text>
+                    <text id="$120-per-week" sketch:type="MSTextLayer" font-family="Avenir" font-size="10" font-weight="260" line-spacing="14" letter-spacing="0.416666687" fill="#9B9B9B">
+                        <tspan x="57" y="45">$120 per week</tspan>
+                    </text>
+                    <text id="Forward-Tipping-Dump" sketch:type="MSTextLayer" font-family="Avenir" font-size="16" font-weight="420" line-spacing="19" letter-spacing="0.333333343" fill="#000000">
+                        <tspan x="56" y="24">Forward Tipping Dumper</tspan>
+                    </text>
+                </g>
+                <g id="Nav" transform="translate(75.000000, 302.000000)">
+                    <g id="bar-graph-2" transform="translate(0.000000, 287.000000)" fill="#FFFFFF" opacity="0.5" sketch:type="MSShapeGroup">
+                        <path d="M10,0 C8.49386364,0 7.27272727,1.22090909 7.27272727,2.72727273 L7.27272727,17.2727273 C7.27272727,18.7790909 8.49386364,20 10,20 C11.5061364,20 12.7272727,18.7790909 12.7272727,17.2727273 L12.7272727,2.72727273 C12.7272727,1.22090909 11.5061364,0 10,0 L10,0 Z M10.9090909,17.2727273 C10.9090909,17.7747727 10.5020455,18.1818182 10,18.1818182 C9.49795455,18.1818182 9.09090909,17.7747727 9.09090909,17.2727273 L9.09090909,2.72727273 C9.09090909,2.22522727 9.49795455,1.81818182 10,1.81818182 C10.5020455,1.81818182 10.9090909,2.22522727 10.9090909,2.72727273 L10.9090909,17.2727273 L10.9090909,17.2727273 Z M17.2727273,5.45454545 C15.7665909,5.45454545 14.5454545,6.67545455 14.5454545,8.18181818 L14.5454545,17.2727273 C14.5454545,18.7790909 15.7665909,20 17.2727273,20 C18.7788636,20 20,18.7790909 20,17.2727273 L20,8.18181818 C20,6.67545455 18.7788636,5.45454545 17.2727273,5.45454545 L17.2727273,5.45454545 Z M18.1818182,17.2727273 C18.1818182,17.7747727 17.7747727,18.1818182 17.2727273,18.1818182 C16.7706818,18.1818182 16.3636364,17.7747727 16.3636364,17.2727273 L16.3636364,8.18181818 C16.3636364,7.67977273 16.7706818,7.27272727 17.2727273,7.27272727 C17.7747727,7.27272727 18.1818182,7.67977273 18.1818182,8.18181818 L18.1818182,17.2727273 L18.1818182,17.2727273 Z M2.72727273,10.9090909 C1.22113636,10.9090909 0,12.13 0,13.6363636 L0,17.2727273 C0,18.7790909 1.22113636,20 2.72727273,20 C4.23340909,20 5.45454545,18.7790909 5.45454545,17.2727273 L5.45454545,13.6363636 C5.45454545,12.13 4.23340909,10.9090909 2.72727273,10.9090909 L2.72727273,10.9090909 Z M3.63636364,17.2727273 C3.63636364,17.7747727 3.22931818,18.1818182 2.72727273,18.1818182 C2.22522727,18.1818182 1.81818182,17.7747727 1.81818182,17.2727273 L1.81818182,13.6363636 C1.81818182,13.1343182 2.22522727,12.7272727 2.72727273,12.7272727 C3.22931818,12.7272727 3.63636364,13.1343182 3.63636364,13.6363636 L3.63636364,17.2727273 L3.63636364,17.2727273 Z" id="Shape"></path>
+                    </g>
+                    <g id="speech-bubble" transform="translate(0.000000, 380.000000)">
+                        <path d="M17.2727273,3.81818182 C17.7740909,3.81818182 18.1818182,4.22590909 18.1818182,4.72727273 L18.1818182,14.7272727 C18.1818182,15.2284091 17.7740909,15.6361364 17.2727273,15.6361364 L9.4175,15.6361364 L5.45454545,18.4668182 L5.45454545,17.4545455 L5.45454545,15.6361364 L2.72727273,15.6361364 C2.22568182,15.6361364 1.81818182,15.2284091 1.81818182,14.7272727 L1.81818182,4.72727273 C1.81818182,4.22568182 2.22590909,3.81818182 2.72727273,3.81818182 L17.2727273,3.81818182 L17.2727273,3.81818182 Z M17.2727273,2 L2.72727273,2 C1.22113636,2 0,3.22113636 0,4.72727273 L0,14.7272727 C0,16.2334091 1.22113636,17.4545455 2.72727273,17.4545455 L3.63636364,17.4545455 L3.63636364,22 L10,17.4545455 L17.2727273,17.4545455 C18.7788636,17.4545455 20,16.2334091 20,14.7272727 L20,4.72727273 C20,3.22113636 18.7788636,2 17.2727273,2 L17.2727273,2 L17.2727273,2 Z" id="Shape" opacity="0.5" fill="#F8F8F8" sketch:type="MSShapeGroup"></path>
+                        <g id="Oval-51-+-1-Copy" transform="translate(15.000000, 0.000000)">
+                            <circle id="Oval-51" fill="#FD0B29" sketch:type="MSShapeGroup" cx="3.5" cy="3.5" r="3.5"></circle>
+                            <text id="4" sketch:type="MSTextLayer" font-family="Abadi MT Condensed Light" font-size="5" font-style="condensed" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                                <tspan x="2.35375977" y="5.00000763">4</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="clipboard" transform="translate(0.000000, 187.000000)" fill="#FFFFFF" sketch:type="MSShapeGroup">
+                        <path d="M16.6666667,2.22222222 L15.3619444,2.22222222 C14.9033333,0.928333333 13.6730556,0 12.2222222,0 L7.77777778,0 C6.32694444,0 5.09666667,0.928333333 4.63805556,2.22222222 L3.33333333,2.22222222 C1.49166667,2.22222222 0,3.71388889 0,5.55555556 L0,21.1111111 C0,22.9527778 1.49166667,24.4444444 3.33333333,24.4444444 L16.6666667,24.4444444 C18.5083333,24.4444444 20,22.9527778 20,21.1111111 L20,5.55555556 C20,3.71388889 18.5083333,2.22222222 16.6666667,2.22222222 L16.6666667,2.22222222 Z M7.77777778,2.22222222 L12.2222222,2.22222222 C12.8358333,2.22222222 13.3333333,2.71972222 13.3333333,3.33333333 C13.3333333,3.94694444 12.8358333,4.44444444 12.2222222,4.44444444 L7.77777778,4.44444444 C7.16416667,4.44444444 6.66666667,3.94694444 6.66666667,3.33333333 C6.66666667,2.71972222 7.16416667,2.22222222 7.77777778,2.22222222 L7.77777778,2.22222222 Z M17.7777778,21.1111111 C17.7777778,21.725 17.2805556,22.2222222 16.6666667,22.2222222 L3.33333333,22.2222222 C2.71944444,22.2222222 2.22222222,21.725 2.22222222,21.1111111 L2.22222222,5.55555556 C2.22222222,4.94166667 2.71944444,4.44444444 3.33333333,4.44444444 L4.63805556,4.44444444 C5.09583333,5.73833333 6.32694444,6.66666667 7.77777778,6.66666667 L12.2222222,6.66666667 C13.6730556,6.66666667 14.9033333,5.73833333 15.3619444,4.44444444 L16.6666667,4.44444444 C17.2805556,4.44444444 17.7777778,4.94166667 17.7777778,5.55555556 L17.7777778,21.1111111 L17.7777778,21.1111111 Z" id="Shape"></path>
+                    </g>
+                    <g id="bell-+-Oval-51-+-1" transform="translate(1.000000, 93.000000)">
+                        <g id="bell" transform="translate(0.000000, 2.291667)" fill="#FFFFFF" opacity="0.5" sketch:type="MSShapeGroup">
+                            <path d="M19,14.25 C17.4166667,12.6666667 16.625,10.2916667 15.8333333,6.33333333 C15.1473542,2.90403125 12.9971875,0 9.5,0 C6.0028125,0 3.85244792,2.90403125 3.16666667,6.33333333 C2.375,10.2916667 1.58333333,12.6666667 0,14.25 L7.26294792,14.25 C7.17527083,14.4979896 7.125,14.7637917 7.125,15.0416667 C7.125,16.3532604 8.18840625,17.4166667 9.5,17.4166667 C10.8115938,17.4166667 11.875,16.3532604 11.875,15.0416667 C11.875,14.7637917 11.8247292,14.4979896 11.7370521,14.25 L19,14.25 L19,14.25 Z M4.71932292,6.64366667 C4.956625,5.4565625 6.00320833,1.58333333 9.5,1.58333333 C12.9967917,1.58333333 14.043375,5.45676042 14.2806771,6.64366667 C14.7713125,9.09763542 15.2761979,11.0657188 16.0268958,12.6666667 L2.97290625,12.6666667 C3.72360417,11.0657188 4.22848958,9.09763542 4.71932292,6.64366667 L4.71932292,6.64366667 Z M10.2916667,15.0416667 C10.2916667,15.4782708 9.93660417,15.8333333 9.5,15.8333333 C9.06339583,15.8333333 8.70833333,15.4782708 8.70833333,15.0416667 C8.70833333,14.6050625 9.06339583,14.25 9.5,14.25 C9.93660417,14.25 10.2916667,14.6050625 10.2916667,15.0416667 L10.2916667,15.0416667 Z" id="Shape"></path>
+                        </g>
+                        <g id="Oval-51-+-1" transform="translate(11.000000, 0.000000)">
+                            <circle id="Oval-51" fill="#FD0B29" sketch:type="MSShapeGroup" cx="3.5" cy="3.5" r="3.5"></circle>
+                            <text id="1" sketch:type="MSTextLayer" font-family="Abadi MT Condensed Light" font-size="5" font-style="condensed" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                                <tspan x="2.35375977" y="5.00000763">1</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="head" transform="translate(1.000000, 0.000000)" fill="#FFFFFF" opacity="0.5" sketch:type="MSShapeGroup">
+                        <path d="M12.7994688,10.54025 C13.6934583,9.67673958 14.25,8.46588542 14.25,7.125 L14.25,4.75 C14.25,2.12661458 12.1233854,0 9.5,0 C6.87661458,0 4.75,2.12661458 4.75,4.75 L4.75,7.125 C4.75,8.46548958 5.30654167,9.67594792 6.1999375,10.5396563 C2.58023958,11.1035208 0,12.5653333 0,14.2686042 L0,15.8333333 C0,17.1455208 1.0628125,18.2083333 2.375,18.2083333 L16.625,18.2083333 C17.9371875,18.2083333 19,17.1455208 19,15.8333333 L19,14.2747396 C19,12.5716667 16.4195625,11.1053021 12.7994688,10.54025 L12.7994688,10.54025 Z M6.33333333,7.125 L6.33333333,4.75 C6.33333333,3.00120833 7.75120833,1.58333333 9.5,1.58333333 C11.2489896,1.58333333 12.6666667,3.00120833 12.6666667,4.75 L12.6666667,7.125 C12.6666667,8.87379167 11.2489896,10.2916667 9.5,10.2916667 C7.75120833,10.2916667 6.33333333,8.87379167 6.33333333,7.125 L6.33333333,7.125 Z M17.4166667,15.8333333 C17.4166667,16.2699375 17.0616042,16.625 16.625,16.625 L2.375,16.625 C1.93839583,16.625 1.58333333,16.2699375 1.58333333,15.8333333 L1.58333333,14.2686042 C1.58333333,14.0841458 2.03953125,13.4886146 3.39466667,12.9203958 C4.97879167,12.2559896 7.20416667,11.875 9.5,11.875 C11.7946458,11.875 14.0194271,12.2569792 15.6041458,12.9227708 C16.9600729,13.4927708 17.4166667,14.0894896 17.4166667,14.2747396 L17.4166667,15.8333333 L17.4166667,15.8333333 Z" id="Shape"></path>
+                    </g>
+                </g>
+                <g id="Bubble" transform="translate(56.000000, 104.000000)" sketch:type="MSShapeGroup">
+                    <path d="M13.9424428,55.1926717 L0.320152672,58.8403052 L4.04839693,44.9267176 C1.48122137,40.5123666 0,35.3816793 0,29.9047328 C0,13.3891603 13.3896183,0 29.9065649,0 C46.4203052,0 59.8117559,13.3891603 59.8117559,29.9047328 C59.8117559,46.4203052 46.4203052,59.8122138 29.9065649,59.8122138 C24.0329771,59.8135879 18.5619847,58.1157252 13.9424428,55.1926717" id="Fill-1" fill="#FFFFFF" filter="url(#filter-2)"></path>
+                    <g id="Oval-2" transform="translate(10.344828, 26.551724)" fill="url(#linearGradient-3)">
+                        <g id="path-3-link">
+                            <circle id="path-3" cx="3.44827586" cy="3.44827586" r="3.44827586"></circle>
+                        </g>
+                        <g id="path-3-link">
+                            <circle id="path-3" cx="3.44827586" cy="3.44827586" r="3.44827586"></circle>
+                        </g>
+                    </g>
+                    <g id="Oval-2" transform="translate(26.206897, 26.551724)" fill="url(#linearGradient-3)">
+                        <g id="path-5-link">
+                            <circle id="path-5" cx="3.44827586" cy="3.44827586" r="3.44827586"></circle>
+                        </g>
+                        <g id="path-5-link">
+                            <circle id="path-5" cx="3.44827586" cy="3.44827586" r="3.44827586"></circle>
+                        </g>
+                    </g>
+                    <g id="Oval-2" transform="translate(42.413793, 26.551724)" fill="url(#linearGradient-3)">
+                        <g id="path-7-link">
+                            <circle id="path-7" cx="3.44827586" cy="3.44827586" r="3.44827586"></circle>
+                        </g>
+                        <g id="path-7-link">
+                            <circle id="path-7" cx="3.44827586" cy="3.44827586" r="3.44827586"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g transform="translate(258.000000, 163.000000)">
+                    <rect id="Rectangle-216" stroke="#424242" stroke-width="2" opacity="0.135190217" fill="#939393" sketch:type="MSShapeGroup" x="0" y="1" width="840" height="60" rx="1"></rect>
+                    <path d="M650,2 L650,60.5" id="Line" stroke="#E6E6E6" stroke-width="2" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                    <text id="Location" sketch:type="MSTextLayer" font-family="Avenir" font-size="14" font-weight="260" fill="#424242">
+                        <tspan x="696" y="35.818">Location</tspan>
+                    </text>
+                    <text id="i-am-looking-for?-…" sketch:type="MSTextLayer" font-family="Lato" font-size="14" font-weight="260" fill="#424242">
+                        <tspan x="40" y="35.4269663">i am looking for? …</tspan>
+                    </text>
+                    <g id="search" transform="translate(12.000000, 25.573034)" fill="#000000" sketch:type="MSShapeGroup">
+                        <path d="M12.6828876,11.8565843 L9.36701124,8.54070787 C10.0866854,7.64107865 10.5168539,6.5 10.5168539,5.25842697 C10.5168539,2.35431461 8.16268539,0 5.25842697,0 C2.35431461,0 0,2.35431461 0,5.25842697 C0,8.16253933 2.35431461,10.5168539 5.25842697,10.5168539 C6.5,10.5168539 7.64107865,10.0865393 8.54070787,9.36686517 L11.8565843,12.6827416 C11.9706629,12.7968202 12.120236,12.8539326 12.2696629,12.8539326 C12.419236,12.8539326 12.568809,12.7968202 12.6828876,12.6827416 C12.9110449,12.4547303 12.9110449,12.0845955 12.6828876,11.8565843 L12.6828876,11.8565843 Z M5.25842697,9.34831461 C2.99964045,9.34831461 1.16853933,7.51721348 1.16853933,5.25842697 C1.16853933,2.99964045 2.99964045,1.16853933 5.25842697,1.16853933 C7.51735955,1.16853933 9.34831461,2.99964045 9.34831461,5.25842697 C9.34831461,7.51721348 7.51735955,9.34831461 5.25842697,9.34831461 L5.25842697,9.34831461 Z" id="Shape"></path>
+                    </g>
+                    <path d="M680.391824,30.7958256 C680.629088,30.2358147 680.76,29.622012 680.76,28.9783789 C680.76,26.3489646 678.57515,24.2174031 675.88,24.2174031 C673.18485,24.2174031 671,26.3489646 671,28.9783789 C671,29.7048637 671.166785,30.3933439 671.465036,31.0093626 L674.112014,37.2132051 C675.088446,39.5017133 676.676351,39.4931155 677.650495,37.2132049 L680.392466,30.7958256 L680.391824,30.7958256 Z M675.88,31.1208179 C676.997501,31.1208179 677.903415,30.2149043 677.903415,29.0974033 C677.903415,27.9799022 676.997501,27.0739886 675.88,27.0739886 C674.762499,27.0739886 673.856585,27.9799022 673.856585,29.0974033 C673.856585,30.2149043 674.762499,31.1208179 675.88,31.1208179 Z" id="Oval-72" stroke="#000000" sketch:type="MSShapeGroup"></path>
+                    <g id="Rectangle-217-+-SEARCH" transform="translate(860.000000, 0.000000)">
+                        <rect id="Rectangle-217" stroke="#F6915C" fill="url(#linearGradient-4)" sketch:type="MSShapeGroup" x="0" y="0" width="174" height="61" rx="1"></rect>
+                        <text id="SEARCH" sketch:type="MSTextLayer" font-family="Avenir" font-size="18" font-weight="686" sketch:alignment="middle" letter-spacing="1.28571427" fill="#FFFFFF">
+                            <tspan x="46.8098572" y="36.4269663">SEARCH</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Rectangle-218-+-LOGIN-+-SIGN-UP" transform="translate(1132.000000, 57.000000)">
+                    <rect id="Rectangle-218" stroke="#424242" fill="#424242" sketch:type="MSShapeGroup" x="0" y="0" width="126" height="31" rx="1"></rect>
+                    <text id="LOGIN" sketch:type="MSTextLayer" font-family="Avenir" font-size="11" font-weight="686" sketch:alignment="middle" fill="#424242">
+                        <tspan x="159.081" y="19.818">LOGIN</tspan>
+                    </text>
+                    <text id="SIGN-UP" sketch:type="MSTextLayer" font-family="Avenir" font-size="11" font-weight="686" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="40.285" y="18.818">SIGN UP</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
