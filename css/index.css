@@ -3032,9 +3032,9 @@ body
 		margin-top: 45px;
 	}
 
-	html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+	body
+	{
+		overflow-x: hidden;
 	}
 }
 
@@ -3842,9 +3842,9 @@ body
 		margin-top: 31px;
 	}
 
-	html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+	body
+	{
+		overflow-x: hidden;
 	}
 }
 
@@ -4601,9 +4601,9 @@ body
 		margin-top: 44px;
 	}
 
-	html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+	body
+	{
+		overflow-x: hidden;
 	}
 }
 
@@ -5263,9 +5263,9 @@ body
 		margin-top: 38px;
 	}
 
-	html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+	body
+	{
+		overflow-x: hidden;
 	}
 }
 
@@ -5875,10 +5875,10 @@ body
 		margin-top: 25px;
 	}
 
-	html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
+	body
+	{
+		overflow-x: hidden;
+	}
 }
 
 @media (max-width: 320px)
@@ -6492,3 +6492,4 @@ body
 		min-width: 320px;
 	}
 }
+
