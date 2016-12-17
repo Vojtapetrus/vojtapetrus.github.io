@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000F4;
-	background-color: #2B097F;
+	color: #0000E5;
+	background-color: #B7C8CE;
 }
 
 .js body.initialized
@@ -52,6 +52,7 @@
 	font-family: '__Gotham Rounded_5';
 	letter-spacing: 2px;
 	color: #FFFFFF;
+	position: relative;
 	text-align: center;
 }
 
@@ -689,7 +690,6 @@ body
 		min-height: 124px;
 		line-height: 60px;
 		font-size: 50px;
-		position: relative;
 		width: 79.93%;
 		margin-left: 10.04%;
 		left: 1.4999999999999432px;
@@ -1528,7 +1528,6 @@ body
 		min-height: 95px;
 		line-height: 48px;
 		font-size: 40px;
-		position: relative;
 		margin-left: 50%;
 		left: -279.5px;
 	}
@@ -2347,7 +2346,6 @@ body
 		min-height: 95px;
 		line-height: 48px;
 		font-size: 40px;
-		position: relative;
 		margin-left: 50%;
 		left: -279px;
 	}
@@ -3034,9 +3032,9 @@ body
 		margin-top: 45px;
 	}
 
-	body
-	{
-		overflow-x: hidden;
+	html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 	}
 }
 
@@ -3182,7 +3180,6 @@ body
 		min-height: 75px;
 		line-height: 36px;
 		font-size: 30px;
-		position: relative;
 		margin-left: 50%;
 		left: -279px;
 	}
@@ -3845,9 +3842,9 @@ body
 		margin-top: 31px;
 	}
 
-	body
-	{
-		overflow-x: hidden;
+	html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 	}
 }
 
@@ -3993,7 +3990,6 @@ body
 		min-height: 75px;
 		line-height: 36px;
 		font-size: 30px;
-		position: relative;
 		margin-left: 50%;
 		left: -279px;
 	}
@@ -4266,19 +4262,11 @@ body
 		margin-top: 35px;
 	}
 
-	#pthe-team
-	{
-		z-index: 116;
-		margin-top: 22px;
-		width: 100%;
-	}
-
 	#the-team
 	{
+		top: -1px;
+		margin-bottom: -1px;
 		position: relative;
-		margin-right: -10000px;
-		width: 22px;
-		margin-top: 2px;
 	}
 
 	#u450-5
@@ -4288,8 +4276,8 @@ body
 		line-height: 48px;
 		text-align: center;
 		font-size: 40px;
+		margin-top: 5px;
 		position: relative;
-		margin-right: -10000px;
 		width: 67.5%;
 		margin-left: 16.25%;
 		left: 0px;
@@ -4613,9 +4601,9 @@ body
 		margin-top: 44px;
 	}
 
-	body
-	{
-		overflow-x: hidden;
+	html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 	}
 }
 
@@ -4661,31 +4649,21 @@ body
 	#u3211
 	{
 		z-index: 2;
-		min-height: 261px;
+		min-height: 515px;
 		opacity: 1;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 		filter: alpha(opacity=100);
-		padding-bottom: 244px;
 		background: transparent url("../images/background_jobble_tiny.jpg?crc=505391898") no-repeat center center;
 	}
 
-	#u134-4
+	#u3211_align_to_page
 	{
-		z-index: 10;
-		width: 395px;
-		min-height: 145px;
-		line-height: 25px;
-		font-size: 18px;
-		margin-right: -10000px;
-		margin-top: 116px;
-		margin-left: 50%;
-		left: -197px;
-	}
-
-	#u3211-bw
-	{
-		z-index: 2;
-		min-height: 261px;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		max-width: 480px;
+		padding-top: 24px;
+		padding-bottom: 252px;
 	}
 
 	#u128-6
@@ -4694,21 +4672,35 @@ body
 		min-height: 75px;
 		line-height: 36px;
 		font-size: 30px;
+		width: 95.42%;
+		margin-left: 2.3%;
+		left: 0px;
 	}
 
-	#u128-6-bw
+	#u134-4
 	{
-		z-index: 4;
-		min-height: 75px;
-		margin-top: 24px;
+		z-index: 10;
+		width: 350px;
+		min-height: 155px;
+		line-height: 25px;
+		font-size: 18px;
+		margin-top: 9px;
+		margin-left: 50%;
+		left: -176px;
+	}
+
+	#u3211-bw
+	{
+		z-index: 2;
+		min-height: 515px;
 	}
 
 	#widgetu141
 	{
 		z-index: 14;
-		height: 238px;
+		height: 318px;
 		margin-right: -10000px;
-		margin-top: 269px;
+		margin-top: 274px;
 		left: -240px;
 	}
 
@@ -4736,20 +4728,25 @@ body
 		left: 64px;
 	}
 
+	#widgetu141.frm-subm-err-st #u152-4
+	{
+		min-height: 48px;
+	}
+
 	#u146-6
 	{
 		z-index: 23;
 		width: 350px;
-		min-height: 44px;
+		min-height: 124px;
 		line-height: 31px;
 		font-size: 24px;
 		margin-top: 190px;
 		left: 64px;
 	}
 
-	#widgetu141.frm-subm-err-st #u152-4,#widgetu141.frm-subm-ok-st #u146-6
+	#widgetu141.frm-subm-ok-st #u146-6
 	{
-		min-height: 48px;
+		min-height: 128px;
 	}
 
 	#u157-4
@@ -4828,7 +4825,7 @@ body
 	{
 		z-index: 43;
 		min-height: 39px;
-		margin-top: 350px;
+		margin-top: 356px;
 		width: 72.92%;
 		left: 13.34%;
 	}
@@ -4839,7 +4836,8 @@ body
 		min-height: 44px;
 		line-height: 36px;
 		font-size: 30px;
-		margin-top: 26px;
+		top: -59px;
+		margin-bottom: -44px;
 		width: 87.5%;
 		margin-left: 6.25%;
 		left: 0px;
@@ -4849,7 +4847,7 @@ body
 	{
 		z-index: 122;
 		min-height: 196px;
-		margin-top: 23px;
+		margin-top: 8px;
 		width: 91.05%;
 		margin-left: 4.48%;
 		left: 1px;
@@ -5201,7 +5199,7 @@ body
 		padding-bottom: 40px;
 	}
 
-	#u3211_align_to_page,#u685_align_to_page
+	#u685_align_to_page
 	{
 		margin-left: auto;
 		margin-right: auto;
@@ -5262,12 +5260,12 @@ body
 	{
 		z-index: 118;
 		min-height: 20px;
-		margin-top: 41px;
+		margin-top: 38px;
 	}
 
-	body
-	{
-		overflow-x: hidden;
+	html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 	}
 }
 
@@ -5337,7 +5335,6 @@ body
 		min-height: 58px;
 		line-height: 26px;
 		font-size: 22px;
-		position: relative;
 		width: 92.54%;
 		margin-left: 3.74%;
 		left: 0px;
@@ -5878,10 +5875,10 @@ body
 		margin-top: 25px;
 	}
 
-	body
-	{
-		overflow-x: hidden;
-	}
+	html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 }
 
 @media (max-width: 320px)
@@ -5924,14 +5921,14 @@ body
 	#pu2863
 	{
 		z-index: 2;
-		margin-top: 27px;
+		margin-top: 19px;
 		width: 100%;
 	}
 
 	#u2863
 	{
 		z-index: 2;
-		min-height: 512px;
+		min-height: 520px;
 		opacity: 1;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 		filter: alpha(opacity=100);
@@ -5945,6 +5942,7 @@ body
 		margin-right: auto;
 		position: relative;
 		max-width: 320px;
+		padding-top: 12px;
 		padding-bottom: 268px;
 	}
 
@@ -5954,7 +5952,6 @@ body
 		min-height: 58px;
 		line-height: 26px;
 		font-size: 22px;
-		position: relative;
 		width: 92.5%;
 		margin-left: 3.75%;
 		left: 0px;
@@ -5966,7 +5963,7 @@ body
 		min-height: 165px;
 		line-height: 25px;
 		font-size: 18px;
-		margin-top: 11px;
+		margin-top: 7px;
 		width: 92.5%;
 		margin-left: 3.75%;
 		left: 0px;
@@ -5975,7 +5972,7 @@ body
 	#u2863-bw
 	{
 		z-index: 2;
-		min-height: 512px;
+		min-height: 520px;
 	}
 
 	#widgetu141
@@ -5983,7 +5980,7 @@ body
 		z-index: 14;
 		height: 260px;
 		margin-right: -10000px;
-		margin-top: 260px;
+		margin-top: 268px;
 		left: -160px;
 	}
 
@@ -6108,7 +6105,7 @@ body
 	{
 		z-index: 43;
 		min-height: 41px;
-		margin-top: 347px;
+		margin-top: 355px;
 		width: 92.5%;
 		left: 3.75%;
 	}
@@ -6495,4 +6492,3 @@ body
 		min-width: 320px;
 	}
 }
-

@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="false" exportTarget="other" domain="http://jobble.website" resolutions="1x" timestamp="1481976393357">
+<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="false" exportTarget="other" domain="http://jobble.website" resolutions="1x" timestamp="1481987071735">
   <folder name="css">
     <file name="site_global.css" crc="347998549"/>
-    <file name="index.css" crc="4096461183" ref="index"/>
-    <file name="nomq_index.css" crc="113190760" ref="index"/>
+    <file name="index.css" crc="3854026958" ref="index"/>
+    <file name="nomq_index.css" crc="316754462" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="gothamrnd-medium.woff" crc="410648162"/>
@@ -49,5 +49,5 @@
     <file name="background_jobble_tiny_21024x461.jpg" crc="143675885" seo="true" ref="index"/>
     <file name="jobble_process_tiny583x277.png" crc="3983168866" seo="true" ref="index"/>
   </folder>
-  <file name="index.html" crc="275909135" seo="true" mt="1481976327955" redirect="true"/>
+  <file name="index.html" crc="483630793" seo="true" mt="1481987047951" redirect="true"/>
 </manifest>
