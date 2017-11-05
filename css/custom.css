@@ -1,0 +1,15 @@
+header.masthead {
+    text-align: center;
+    color: white;
+    background-image: url("../img/header-bg.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+
+.btn-lg {
+    margin: 1rem
+}

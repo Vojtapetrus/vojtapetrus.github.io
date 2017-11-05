@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150px"
+	 height="150px" viewBox="0 0 150 150" enable-background="new 0 0 150 150" xml:space="preserve">
+<g id="airplane">
+	<g id="base">
+		<polygon fill="#CECDCC" points="67.355,108.476 38.173,125.296 25.477,103.274 30.294,91.773 17.956,89.965 5.188,67.816 
+			34.016,51.2 74.584,66.225 		"/>
+	</g>
+	<g id="shade">
+		<polygon id="right_6_" fill="#B7B7B7" points="74.236,71.369 67.142,108.6 62.64,111.195 68.865,74.997 		"/>
+		<polygon id="left_2_" display="none" fill="#B7B7B7" points="-237.999,289.523 -109.109,301.876 -95.997,289.025 
+			-223.542,277.359 		"/>
+	</g>
+	<g id="big_wings">
+		<polygon id="left_1_" fill="#41A2C3" points="145.51,25.18 33.982,51.337 74.516,66.103 		"/>
+		<polygon id="right_1_" fill="#41A2C3" points="145.51,25.18 66.978,108.576 74.516,66.103 		"/>
+	</g>
+	<g id="inside">
+		<polygon id="left_4_" fill="#35454C" points="145.267,25.327 17.702,89.783 30.073,91.518 		"/>
+		<polyline id="right_3_" fill="#2C3A44" points="30.055,91.483 145.21,25.226 25.354,103.06 		"/>
+	</g>
+</g>
+<g id="text">
+</g>
+</svg>
