@@ -1,4 +1,4 @@
-header.masthead {
+.jumbotron {
     text-align: center;
     color: white;
     background-image: url("../img/header-bg.png");
@@ -13,3 +13,29 @@ header.masthead {
 .btn-lg {
     margin: 1rem
 }
+
+.btn-apply {
+    font-weight: 500;
+    color: #fff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #00b761;}
+
+.btn-apply:hover {
+    color: #fed136;
+    background-color: #00b761;
+    border-color: #00b761;
+  }
+
+.btn-findoutmore {
+    font-weight: 500;
+    color: #fff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #fed136;}
+
+.btn-findoutmore:hover {
+    color: #fff;
+    background-color: #fed136;
+    border-color: #fed136;
+  }
