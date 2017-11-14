@@ -17,13 +17,13 @@
 .btn-apply {
     font-weight: 500;
     color: #fff;
-    background-color: transparent;
-    background-image: none;
+    background-color: #00b761;
     border-color: #00b761;}
 
 .btn-apply:hover {
     color: #fed136;
-    background-color: #00b761;
+    background-color: transparent;
+    background-image: none;
     border-color: #00b761;
   }
 
@@ -32,15 +32,23 @@
     color: #fff;
     background-color: transparent;
     background-image: none;
-    border-color: #fed136;}
+    border-color: #2274a5;}
 
 .btn-findoutmore:hover {
     color: #fff;
-    background-color: #fed136;
-    border-color: #fed136;
+    background-color: #2274a5;
+    border-color: #2274a5;
   }
 
 .sponsor-tba {
     margin: 15px 0;
     text-transform: none;
     color: #BABBBC }
+
+
+.btn-apply-outline {
+    font-weight: 500;
+    color: #fed136;
+    background-color: transparent;
+    background-image: none;
+    border-color: #00b761;}
