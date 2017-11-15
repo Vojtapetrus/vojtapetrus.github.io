@@ -34,6 +34,11 @@ h6 {
   font-weight: 700;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
+h5 {font-weight: 400;
+  font-size: 20px;
+margin-bottom: 50px;
+margin-top: 10px}
+
 section {
   padding: 100px 0; }
   section h2.section-heading {
@@ -46,7 +51,7 @@ section {
     font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 @media (min-width: 768px) {
   section {
