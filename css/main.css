@@ -1503,8 +1503,7 @@ section{
     z-index:-1
 }
 #splash .offset-background{
-    background:-webkit-linear-gradient(rgba(44,58,69,0.8), rgba(44,58,69,0.8)),url(../images/splashBg.jpg) center no-repeat;
-    background:linear-gradient(rgba(44,58,69,0.8), rgba(44,58,69,0.8)),url(../images/splashBg.jpg) center no-repeat;
+    background:url(../images/splashBg.jpg) center no-repeat;
     background-size:cover
 }
 #countdown .offset-background{
