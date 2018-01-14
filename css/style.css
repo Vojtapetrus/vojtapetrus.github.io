@@ -33,8 +33,7 @@ h3 {
 h4 {
   font-size: 30px;
   line-height: 24px;
-  font-weight: 400;
-  text-align: center }
+  font-weight: 400;}
 
 p {
   font-size: 18px;
@@ -300,17 +299,14 @@ a:active {
   padding-bottom: 100px; }
 
 .feature .feature-box {
-  margin-bottom: 40px;
-  text-align: center }
+  margin-bottom: 40px; }
   .feature .feature-box i {
     font-size: 30px;
-    margin-bottom: 10px;
-    display: inline-block;}
+    margin-bottom: 10px;}
   .feature .feature-box h4 {
     font-size: 50px;
     font-weight: bold;
-    margin-bottom: 8px;
-    text-align: center; }
+    margin-bottom: 8px;}
   .feature .feature-box p {
     line-height: 1.1; }
 
