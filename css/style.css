@@ -304,9 +304,7 @@ a:active {
   .feature .feature-box i {
     font-size: 30px;
     margin-bottom: 10px;
-    display: inline-flex;
-    align-self: center;
-    position: relative;}
+    display: inline-block;}
   .feature .feature-box h4 {
     font-size: 50px;
     font-weight: bold;
