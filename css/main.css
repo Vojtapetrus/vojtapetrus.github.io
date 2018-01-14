@@ -1557,7 +1557,7 @@ section{
 }
 #splash img{
     display:block;
-    width:400px
+    
 }
 #splash .button-row .button,#splash .button-row #speakers .speaker-tag,#speakers #splash .button-row .speaker-tag,#splash .button-row #speakers .workshop-tag,#speakers #splash .button-row .workshop-tag{
     margin-bottom:1em
