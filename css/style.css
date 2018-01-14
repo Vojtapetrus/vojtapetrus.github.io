@@ -307,7 +307,8 @@ a:active {
     display: inline-block; }
   .feature .feature-box h4 {
     font-weight: bold;
-    margin-bottom: 8px; }
+    margin-bottom: 8px;
+    text-align: center; }
   .feature .feature-box p {
     line-height: 1.1; }
 
