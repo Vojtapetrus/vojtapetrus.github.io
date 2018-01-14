@@ -1495,6 +1495,38 @@ section{
     text-align:center
 }
 
+}
+#countdown .offset-background{
+    background:#eee
+}
+#about .offset-background{
+    background:white
+}
+#why-speakers .offset-background{
+    background:-webkit-linear-gradient(rgba(51,153,255,0.9), rgba(51,153,255,0.9)),url(../images/why-speakers.jpg) center no-repeat;
+    background:linear-gradient(rgba(51,153,255,0.9), rgba(51,153,255,0.9)),url(../images/why-speakers.jpg) center no-repeat;
+    background-size:cover
+}
+#why-networking .offset-background{
+    background:-webkit-linear-gradient(rgba(255,147,30,0.9), rgba(255,147,30,0.9)),url(../images/why-networking.jpg) center no-repeat;
+    background:linear-gradient(rgba(255,147,30,0.9), rgba(255,147,30,0.9)),url(../images/why-networking.jpg) center no-repeat;
+    background-size:cover
+}
+#why-pitch .offset-background{
+    background:url(../images/why-pitch.jpg) center no-repeat;
+    background:linear-gradient(rgba(44,58,69,0.9), rgba(44,58,69,0.9)),url(../images/why-pitch.jpg) center no-repeat;
+    background-size:cover
+}
+#speakers .offset-background{
+    background:white
+}
+#sponsors .offset-background{
+    background:white
+}
+#location .offset-background{
+    background:url(../images/location.jpg) center no-repeat;
+    background-size:cover
+}
 #splash{
     color:white;
     min-height:100vh;
