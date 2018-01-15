@@ -312,14 +312,16 @@ a:active {
 .promo-details {
   background: #f9a743; }
   .promo-details h2 {
-    color: #fff;
-    font-weight: 700;
-    margin-bottom: 10px;
-    padding-bottom: 0;
-    text-align: left; }
+    color: #fff;}
+
   .promo-details p {
+    color: #fff;}
+
+  .promo-details i {
     color: #fff;
-    font-size: 18px; }
+    font-size: 50px;
+    margin-bottom: 30px;}
+ 
 
 /*--
     Feature-list start
