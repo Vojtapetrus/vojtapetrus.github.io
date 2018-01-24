@@ -229,7 +229,7 @@ a:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(front_photo.jpg);
+  background-image: url(../images/front_photo.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -516,8 +516,8 @@ footer {
     margin-right:10px
 }
 
-a#map-mmu {
-  background-image: url('images/map.png');
+#map-mmu {
+  background-image: url('../images/map.png');
   background-repeat: no-repeat;
   background-position: center;
   display: block;
