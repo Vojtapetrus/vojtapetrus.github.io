@@ -516,7 +516,7 @@ footer {
     margin-right:10px
 }
 
-a#map {
+a#map-mmu {
   background-image: url('images/map.png');
   background-repeat: no-repeat;
   background-position: center;
