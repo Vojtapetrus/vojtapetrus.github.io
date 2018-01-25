@@ -480,7 +480,7 @@ footer {
   }
 
   #twitter{
-    padding:4em 0 0 0
+    padding:1em 0 0 0
 }
 #twitter .fade{
     bottom:0;
@@ -518,7 +518,6 @@ footer {
 #twitter .twitter-tweet{
     display:inline-block !important;
     margin-right:10px;
-    height: 300px !important;
 }
 
 #map-mmu {
@@ -527,5 +526,14 @@ footer {
   background-position: center;
   display: block;
   width: 100%;
-  height: 300px;
+  height: 750px;
+}
+
+.menu i {
+  font-size: 30px;
+}
+
+.big-icon i {
+  font-size: 75px;
+
 }
