@@ -534,6 +534,8 @@ footer {
 }
 
 .big-icon i {
-  font-size: 75px;
+  font-size: 200px;
+  align-items: middle;
+
 
 }
