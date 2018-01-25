@@ -502,7 +502,8 @@ footer {
 #twitter #tweets{
     padding:0 2em;
     overflow:hidden;
-    white-space:nowrap
+    white-space:nowrap;
+    
 }
 #twitter .fade-left{
     background:-webkit-linear-gradient(left, #fff, rgba(255,255,255,0));
@@ -516,7 +517,8 @@ footer {
 }
 #twitter .twitter-tweet{
     display:inline-block !important;
-    margin-right:10px
+    margin-right:10px;
+    height: 300px !important;
 }
 
 #map-mmu {
