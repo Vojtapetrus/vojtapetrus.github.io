@@ -350,11 +350,8 @@ a:active {
     position: absolute;
     background: rgba(255, 255, 255, 0.85);
     color: inherit;
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
     -webkit-transition: all .3s;
     transition: all .3s;
-    z-index: 2;
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; }
     .gallery .gallery-overlay .gallery-popup {
