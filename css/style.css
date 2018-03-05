@@ -400,9 +400,11 @@ a:active {
 /*--
     service start
 --*/
+.testimonials .section {
+  background: #f4f4f4;
+}
 .testimonials .testimonial-block {
-  padding: 0 10px; 
-  background: #f4f4f4;}
+  padding: 0 10px; }
   .testimonials .testimonial-block i {
     font-size: 40px;
     display: inline-block;
