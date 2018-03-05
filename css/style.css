@@ -362,11 +362,9 @@ a:active {
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; }
     .gallery .gallery-overlay h3 {
-      position: static;
       text-align: center;
       vertical-align: middle}
     .gallery .gallery-overlay h4 {
-      position: static;
       text-align: center;
       vertical-align: middle}
     .gallery .gallery-overlay .gallery-popup {
