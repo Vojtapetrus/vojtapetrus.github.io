@@ -336,6 +336,9 @@ a:active {
 --*/
 .gallery {
   padding-bottom: 100px; }
+  .gallery .speakers{
+    background: #f4f4f4;
+  }
   .gallery .owl-item {
     overflow: hidden;
     position: relative; }
