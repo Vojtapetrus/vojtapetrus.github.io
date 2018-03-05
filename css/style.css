@@ -348,8 +348,8 @@ a:active {
       -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
   .gallery .gallery-overlay {
     position: absolute;
-    top: 30px;
-    bottom: 30px;
+    top: 20px;
+    bottom: 20px;
     left: 30px;
     right: 30px;
     background: rgba(255, 255, 255, 0.85);
