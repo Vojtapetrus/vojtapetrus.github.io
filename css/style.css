@@ -366,14 +366,12 @@ a:active {
       position: relative;
       top: 50%;
       left: 50%;
-      margin-right: -50%;
       transform: translate(-50%, -50%) }
     .gallery .gallery-overlay h4 {
         margin: 0;
         position: relative;
         top: 50%;
         left: 50%;
-        margin-right: -50%;
         transform: translate(-50%, -50%) }
     .gallery .gallery-overlay .gallery-popup {
       text-align: center;
