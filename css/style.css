@@ -400,7 +400,7 @@ a:active {
 /*--
     service start
 --*/
-.testimonials .grey {
+.testimonials{
   background: #f4f4f4;
 }
 .testimonials .testimonial-block {
