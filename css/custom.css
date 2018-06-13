@@ -3,7 +3,7 @@
     align-items: center
 }
 
-header{
+.header{
     background-image: url('/images/raw_mushrooms.jpg');
     background-attachment: fixed;
     background-size: cover;
