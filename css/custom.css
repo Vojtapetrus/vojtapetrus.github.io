@@ -25,11 +25,11 @@ body {
 
 @font-face {
     font-family: "Wicked Grit";
-    src: url(/fonts/WickedGrit.ttf) format("truetype");
+    src: url('/fonts/WickedGrit.ttf') format("truetype");
 }
 
 .mainpagetext{
-    font: "Wicked Grit";
+    font-family: "Wicked Grit";
     justify-content: center;
     align-items: center
 
