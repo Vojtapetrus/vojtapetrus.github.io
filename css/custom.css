@@ -11,7 +11,7 @@
 }
 
 .overlay{
-    position: static;
+    position: absolute;
     min-height: 100%;
     min-width: 100%;
     left: 0;
