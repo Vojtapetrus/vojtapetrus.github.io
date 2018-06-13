@@ -3,8 +3,8 @@
     align-items: center
 }
 
-.header{
-    background-image: url('images/hiveurbanfarmslogo.jpg');
+header{
+    background-image: url('/images/raw_mushrooms.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
