@@ -23,6 +23,14 @@ body {
     font: "lato";
 }
 
-.navlink {
-    color: #FFF
+@font-face {
+    font-family: "Wicked Grit";
+    src: url(/fonts/WickedGrit.ttf) format("truetype");
+}
+
+.mainpagetext{
+    font: "Wicked Grit";
+    justify-content: center;
+    align-items: center
+
 }
