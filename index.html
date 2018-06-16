@@ -9,41 +9,61 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
+    <!--Font Awesome CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Hello, world!</title>
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-           <div class="navbar-nav">
-             <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-             <a class="nav-item nav-link" href="#">Features</a>
-             <a class="nav-item nav-link" href="#">Pricing</a>
-             <a class="nav-item nav-link disabled" href="#">Disabled</a>
-           </div>
+      <nav class="scrollnav navbar navbar-expand-lg navbar-dark bg-black w-100">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+              <img src="/images/hiveurbanfarmsbee.svg" width=45px alt="master_logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item scrollnav-item">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item scrollnav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item scrollnav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+              </li>
+            </ul>
           </div>
-      </nav>
+        </div>
+        </nav>
 
     <div class="side-social">
-      <a href="#popup1">Quick Enquiry</a>
+      <a href="#popup1">
+        <i class="fa fa-twitter-square"></i>
+      </a>
+      <a href="#popup1">
+          <i class="fa fa-instagram"></i>
+        </a>
+        <a href="#popup1">
+            <i class="fa fa-facebook-square"></i>
+          </a>
     </div>
 
 
     <header class="header d-flex flex-column justify-content-center">
-
-
           <div class="row md-auto align-self-center">
-            <ul class="nav">
+            <ul class="nav frontnav">
               <li class="nav-item col-auto align-self-center">
                 <a class="nav-link text-uppercase text-white" href="#">about</a>
               </li>
               <li class="nav-item col-auto align-self-center">
-                <a class="nav-link text-uppercase text-white" href="#">produce</a>
+                <a class="nav-link text-uppercase text-white" href="#mushrooms">mushrooms</a>
               </li>
               <li class="col-auto align-self-center justify-content-center">
                 <img src="/images/hiveurbanfarmslogowhite.svg" width=125px alt="master_logo">
@@ -64,12 +84,16 @@
           </div>
 
           <div class="row mt-auto align-self-center">
-            <a class="h4 text-white font-italic text-center" href="#">Welcome to Hive Urban Farms<br>V</a>
+            <a class="h4 text-white font-italic text-center" href="#">Welcome to Hive Urban Farms<br><i class="fa fa-chevron-down"></i></a>
           </div>
           <!--<h1 class="mainpagetext text-white display-3">BRINGING</br>FOOD AND</br>PEOPLE</br>CLOSER</br>TOGETHER</h1>-->
 
   
     </header>
+
+    <section id="mushrooms">
+      <img src="images/raw_mushrooms_copy.jpg">
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

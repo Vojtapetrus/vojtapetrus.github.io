@@ -1,13 +1,9 @@
-.mainpagenav {
-    justify-content: center;
-    align-items: center
-}
-
 .header{
-    background-image: url('/images/raw_mushrooms_copy.jpg');
+    background-image: url('/images/background_2.jpg');
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: top center;
+    margin: 0px;
 }
 
 .overlay{
@@ -33,22 +29,47 @@ body {
 }
 
 .side-social {
-	height: 0px;
-	width: 85px;
+	/*height: 0px;
+	width: 85px;*/
 	position: fixed;
 	right: 0;
-	top: 50%;
+	top: 40%;
     z-index: 1000;
 }
 
 .side-social a {
 	display: block;
-	height: 52px;
-	width: 155px;	
+	/*height: 52px;
+	width: 155px;*/	
 	color: #fff;
 	font-family: Arial, sans-serif;
-	font-size: 17px;
+	font-size: 30px;
 	font-weight: bold;
 	text-decoration: none;
 
 }
+
+
+nav.scrollnav {
+    display: block;
+    position: fixed;}
+
+@media (min-width: 768px){
+    nav.scrollnav{
+    transition: transform 500ms;
+    transform: translateY(-100px);}}
+
+
+@media (max-width: 768px){
+    .frontnav{
+        display: none;
+    }
+}
+
+.bg-black {
+    background-color: #000000 !important;
+  }
+
+
+
+
