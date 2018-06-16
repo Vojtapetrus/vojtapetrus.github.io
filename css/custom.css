@@ -31,3 +31,24 @@ body {
 .maintext{
     max-width: 80%;
 }
+
+.side-social {
+	height: 0px;
+	width: 85px;
+	position: fixed;
+	right: 0;
+	top: 50%;
+    z-index: 1000;
+}
+
+.side-social a {
+	display: block;
+	height: 52px;
+	width: 155px;	
+	color: #fff;
+	font-family: Arial, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	text-decoration: none;
+
+}
