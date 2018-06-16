@@ -27,3 +27,7 @@ body {
     font-family: "Wicked Grit";
     src: url('/fonts/WickedGrit.ttf') format("truetype");
 }
+
+.maintext{
+    max-width: 80%;
+}
