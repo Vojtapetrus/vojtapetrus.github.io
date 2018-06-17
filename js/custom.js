@@ -36,3 +36,34 @@ $(document).ready(function() {
     $navBar.style.transform = 'translateY(0)'}
 });
 
+(function($) {
+  "use strict"; // Start of use strict
+
+
+
+  // Closes responsive menu when a scroll trigger link is clicked
+  $('.js-scroll-trigger').click(function() {
+    $('.navbar-collapse').collapse('hide');
+  });
+
+  // Activate scrollspy to add active class to navbar items on scroll
+  $('body').scrollspy({
+    target: '#mainNav',
+    offset: 54
+  });
+
+})(jQuery); // End of use strict
+
+$('a[href^="#"]').on('click', function(event) {
+  var target = $(this.getAttribute('href'));
+  if( target.length ) {
+      event.preventDefault();
+      $('html, body').stop().animate({
+          scrollTop: target.offset().top
+      }, 1000);
+  }
+});
+
+
+
+

@@ -88,12 +88,26 @@ nav.scrollnav {
 }
 
 .mushroomtext {
-font-family: 'WickedGrit',sans-serif;
-line-height: 0.8;
-text-shadow: -4px 1px #000000;
-letter-spacing: -5px;
+    font-family: 'WickedGrit',sans-serif;
+    line-height: 0.8;
+    text-shadow: -4px 1px #000000;
+    letter-spacing: -5px;
+    font-size: 10vh;
 
 }
+
+.frontnav-item {
+    flex: 1;
+    min-width: 150px;
+    text-align: center;
+}
+
+.arrowdown {
+    text-align: center;
+}
+
+
+
 
 
 
