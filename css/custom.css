@@ -88,9 +88,11 @@ nav.scrollnav {
 }
 
 .mushroomtext {
-font-family: 'EdoSZ',sans-serif;
+font-family: 'WickedGrit',sans-serif;
 line-height: 0.8;
-text-shadow: 2px 2px #000000;
+text-shadow: -4px 1px #000000;
+letter-spacing: -5px;
+
 }
 
 
