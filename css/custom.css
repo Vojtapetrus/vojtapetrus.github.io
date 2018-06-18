@@ -2,7 +2,7 @@
     background-image: url('/images/background_2.jpg');
     background-attachment: fixed;
     background-size: cover;
-    background-position: top center;
+    
     margin: 0px;
 }
 
@@ -16,7 +16,7 @@
 }
 
 body {
-    font: "lato";
+    font-family: "lato",sans-serif;
 }
 
 @font-face {
