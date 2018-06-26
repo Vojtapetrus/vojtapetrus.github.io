@@ -64,6 +64,21 @@ $('a[href^="#"]').on('click', function(event) {
   }
 });
 
+$(document).ready(function() {
+      var userFeed = new Instafeed({
+        get: 'user',
+        userId: '4193070',
+        accessToken: '4193070.1677ed0.11f382f8b25b47e4810af42cff64e30c',
+        resolution: 'standard_resolution',
+        template: '<a href="{{link}}" target="_blank" id="{{id}}" class="col-4"><div class="card"><img class="card-img-top" src="{{image}}" alt="Card image cap"><div class="card-body"><p class="card-text">{{caption}}</p></div></div></a>',
+        sortBy: 'most-recent',
+        limit: 8,
+        links: false
+      });
+      userFeed.run();
+    });
 
+
+// <div class="col-3 gallery"> <a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" class="img-fluid align-center"><span>{{caption}}</span></a></div>'
 
 

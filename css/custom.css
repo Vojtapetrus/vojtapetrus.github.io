@@ -58,7 +58,8 @@ body {
 
 nav.scrollnav {
     display: block;
-    position: fixed;}
+    position: fixed;
+    z-index: 1000;}
 
 @media (min-width: 768px){
     nav.scrollnav{
@@ -132,6 +133,93 @@ nav.scrollnav {
 .sectionhead {
     font-family: 'WickedGrit', sans-serif;
 }
+
+/* instafetch
+
+.instafetch__feed {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 2em
+}
+
+#instafeed a {
+    position: relative;
+    display: block;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #fff;
+    background-clip: padding-box;
+    cursor: pointer;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease
+}
+
+#instafeed a:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 2px 50px rgba(0, 0, 0, .25);
+    box-shadow: 0 2px 50px rgba(0, 0, 0, .25);
+    opacity: 0;
+    -webkit-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out
+}
+
+#instafeed a:hover {
+    border: 1px solid rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 0 47px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 47px rgba(0, 0, 0, .1);
+    -webkit-transform: translate3d(0, -.5em, 0);
+    transform: translate3d(0, -.5em, 0);
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease
+}
+
+#instafeed a:hover:after {
+    opacity: 1
+}
+
+#instafeed figure {
+    padding: .5em
+}
+
+@media (min-width:30em) {
+    #instafeed figure {
+        padding: 1em
+    }
+}
+
+#instafeed div {
+    padding: .5em 0 1em;
+    color: #000;
+    background: #fff
+}
+
+@media (min-width:30em) {
+    #instafeed div {
+        padding: 1em 0 2em
+    }
+}
+
+#instafeed p {
+    padding: 0;
+    text-align: center
+}
+*/
+
+
+
 
 
 
