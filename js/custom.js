@@ -64,6 +64,8 @@ $('a[href^="#"]').on('click', function(event) {
   }
 });
 
+//instafeed
+
 $(document).ready(function() {
       var userFeed = new Instafeed({
         get: 'user',
@@ -76,9 +78,75 @@ $(document).ready(function() {
         links: false
       });
       userFeed.run();
-    });
+    
 
 
 // <div class="col-3 gallery"> <a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" class="img-fluid align-center"><span>{{caption}}</span></a></div>'
+
+//twitterfetch
+
+/*  var configProfile = {
+    "profile": {"screenName": 'hiveurbanfarms'},
+    "domId": 'tweets',
+    "maxTweets": 3,
+    "enableLinks": true, 
+    "showUser": true,
+    "showTime": true,
+    "showImages": true,
+    "lang": 'en'
+
+  };
+  twitterFetcher.fetch(configProfile); 
+
+  var config8 = {
+    "id": '502160051226681344',
+    "dataOnly": true,
+    "customCallback": populateTpl
+  };
+  
+  twitterFetcher.fetch(config8);
+
+  function populateTpl(tweets){
+    var element = document.getElementById('example8');
+    var html = '<ul>';
+    for (var i = 0, lgth = tweets.length; i < lgth ; i++) {
+      var tweetObject = tweets[i];
+      html += '<li>'
+        + (tweetObject.image ? '<div class="tweet-img"><img src="'+tweetObject.image+'" /></div>' : '')
+        + '<p class="tweet-content">' + tweetObject.tweet + '</p>'
+        + '<p class="tweet-infos">Posted on the ' + tweetObject.time + ', by ' + tweetObject.author + '</p>'
+        + '<p class="tweet-link"><a href="' + tweetObject.permalinkURL + '">Link</a></p>'
+      + '</li>';
+    }
+    html += '</ul>';
+    element.innerHTML = html;
+  } */
+
+  var config2 = {
+    "id": '345170787868762112',
+    "domId": 'twitter-posts',
+    "maxTweets": 3,
+    "enableLinks": true,
+    "showTime": true,
+    "customCallback": handleTweets
+  };
+  
+  function handleTweets(tweets) {
+      var x = tweets.length;
+      var n = 0;
+      var element = document.getElementById('twitter-posts');
+      var html = '<div class="row">';
+      while(n < x) {
+        html += '<div class="twitter-cols card">' + tweets[n] + '</div>';
+        n++;
+      }
+      html += '</div>';
+      element.innerHTML = html;
+  }
+  
+  twitterFetcher.fetch(config2);
+  
+  
+});
 
 
