@@ -74,7 +74,7 @@ $(document).ready(function() {
         resolution: 'standard_resolution',
         template: '<a href="{{link}}" target="_blank" id="{{id}}" class="col-4"><div class="card"><img class="card-img-top" src="{{image}}" alt="Card image cap"><div class="card-body"><p class="card-text">{{caption}}</p></div></div></a>',
         sortBy: 'most-recent',
-        limit: 8,
+        limit: 3,
         links: false
       });
       userFeed.run();
@@ -85,19 +85,20 @@ $(document).ready(function() {
 
 //twitterfetch
 
-/*  var configProfile = {
+ var configProfile = {
     "profile": {"screenName": 'hiveurbanfarms'},
-    "domId": 'tweets',
-    "maxTweets": 3,
+    "domId": 'twitter-posts',
+    "maxTweets": 4,
     "enableLinks": true, 
     "showUser": true,
     "showTime": true,
     "showImages": true,
-    "lang": 'en'
-
+    "lang": 'en',
   };
-  twitterFetcher.fetch(configProfile); 
 
+  twitterFetcher.fetch(configProfile);
+
+  /* 
   var config8 = {
     "id": '502160051226681344',
     "dataOnly": true,
@@ -120,10 +121,10 @@ $(document).ready(function() {
     }
     html += '</ul>';
     element.innerHTML = html;
-  } */
+  } 
 
   var config2 = {
-    "id": '345170787868762112',
+    "id": '31159296',
     "domId": 'twitter-posts',
     "maxTweets": 3,
     "enableLinks": true,
@@ -144,9 +145,16 @@ $(document).ready(function() {
       element.innerHTML = html;
   }
   
-  twitterFetcher.fetch(config2);
+  twitterFetcher.fetch(config2);*/
   
+
+
   
 });
+
+
+
+
+
 
 

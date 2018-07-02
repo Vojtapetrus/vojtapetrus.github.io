@@ -77,16 +77,10 @@ nav.scrollnav {
     background-color: #000000 !important;
   }
 
-#mushrooms {
+#news {
     background-image: url(/images/what-the-hex.png);
     background-repeat: repeat;
     background-attachment: fixed;
-}
-
-.lightwidget-widget{
-    width: 700px;
-    border: 0;
-    overflow: hidden;
 }
 
 .mushroomtext {
@@ -218,12 +212,51 @@ nav.scrollnav {
 }
 */
 
+#twitter-posts ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
 
+#twitter-posts ul li {
+    list-style:none;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
 
+.abouttext {
+    line-height: 2;
+}
 
+.maxwidth15 {
+    width: 15%;
+}
 
+.myflex {
+    display: flex;
+    flex-direction: row;
+}
 
+.myflex .item {
+    width: 33%;
 
+}
+
+.container-background {
+    background-image: url("/images/green_container.jpg");
+}
+
+.grey-background {
+    background-color: #f0f0f0;
+}
+
+footer {
+    background-color: #000000;
+}
 
 
 
