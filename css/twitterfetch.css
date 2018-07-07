@@ -37,9 +37,9 @@ ul li:hover {
   background-color:#f0f3fb;
 }
 
-.user, .tweet, .timePosted {
+/*.user, .tweet, .timePosted {
   float:left;
-}
+}*/
 
 .user {
   width:25%;

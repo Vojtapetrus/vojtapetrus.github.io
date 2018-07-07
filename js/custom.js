@@ -72,7 +72,7 @@ $(document).ready(function() {
         userId: '4193070',
         accessToken: '4193070.1677ed0.11f382f8b25b47e4810af42cff64e30c',
         resolution: 'standard_resolution',
-        template: '<a href="{{link}}" target="_blank" id="{{id}}" class="col-4"><div class="card"><img class="card-img-top" src="{{image}}" alt="Card image cap"><div class="card-body"><p class="card-text">{{caption}}</p></div></div></a>',
+        template: '<a href="{{link}}" target="_blank" id="{{id}}" class="col-4"><div class="card border-0 shadow-sm"><img class="card-img-top mh-100" src="{{image}}" alt="Card image cap"><div class="card-body"><p class="card-text">{{caption}}</p></div></div></a>',
         sortBy: 'most-recent',
         limit: 3,
         links: false
@@ -85,7 +85,7 @@ $(document).ready(function() {
 
 //twitterfetch
 
- var configProfile = {
+ /*var configProfile = {
     "profile": {"screenName": 'hiveurbanfarms'},
     "domId": 'twitter-posts',
     "maxTweets": 4,
@@ -96,61 +96,37 @@ $(document).ready(function() {
     "lang": 'en',
   };
 
-  twitterFetcher.fetch(configProfile);
+  twitterFetcher.fetch(configProfile); */
 
-  /* 
+  
   var config8 = {
-    "id": '502160051226681344',
+    "profile": {"screenName": 'hiveurbanfarms'},
     "dataOnly": true,
+    "maxTweets": 6,
     "customCallback": populateTpl
   };
   
   twitterFetcher.fetch(config8);
 
   function populateTpl(tweets){
-    var element = document.getElementById('example8');
-    var html = '<ul>';
+    var element = document.getElementById('twitter-posts');
+    var html = '<div id="columns">';
     for (var i = 0, lgth = tweets.length; i < lgth ; i++) {
       var tweetObject = tweets[i];
-      html += '<li>'
+      html += '<div class="row tweet p-2 mr-3 mb-3"><a href="' + tweetObject.permalinkURL + '">'
         + (tweetObject.image ? '<div class="tweet-img"><img src="'+tweetObject.image+'" /></div>' : '')
-        + '<p class="tweet-content">' + tweetObject.tweet + '</p>'
-        + '<p class="tweet-infos">Posted on the ' + tweetObject.time + ', by ' + tweetObject.author + '</p>'
-        + '<p class="tweet-link"><a href="' + tweetObject.permalinkURL + '">Link</a></p>'
-      + '</li>';
+        + tweetObject.author
+        + '<div class="padding73"><p class="tweet-content">' + tweetObject.tweet + '</p></div>'
+        + tweetObject.time
+      + '</a></div>';
     }
-    html += '</ul>';
+    html += '</div>';
     element.innerHTML = html;
   } 
 
-  var config2 = {
-    "id": '31159296',
-    "domId": 'twitter-posts',
-    "maxTweets": 3,
-    "enableLinks": true,
-    "showTime": true,
-    "customCallback": handleTweets
-  };
-  
-  function handleTweets(tweets) {
-      var x = tweets.length;
-      var n = 0;
-      var element = document.getElementById('twitter-posts');
-      var html = '<div class="row">';
-      while(n < x) {
-        html += '<div class="twitter-cols card">' + tweets[n] + '</div>';
-        n++;
-      }
-      html += '</div>';
-      element.innerHTML = html;
-  }
-  
-  twitterFetcher.fetch(config2);*/
-  
-
-
   
 });
+
 
 
 
