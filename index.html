@@ -23,13 +23,13 @@
 <html>
 <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
 <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
-<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.5/aframe/build/aframe-ar.js"> </script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6/aframe/build/aframe-ar.js"> </script>
   <body style='margin : 0px; overflow: hidden;'>
     <a-scene stats embedded arjs='trackingMethod: best;'>
       <a-assets>
         <a-asset-item id="smiley" src="AlexandraPalmTree.gltf"></a-asset-item>
        </a-assets>
-       <a-marker preset="pattern" type="pattern" url="https://raw.githubusercontent.com/lbelfield/augmented-reality/master/src/components/trainTicket/train-ticket.patt">
+       <a-marker preset="pattern" type="pattern" url="https://vojtapetrus.github.io/mrfoggs.patt">
          <a-entity
          
          gltf-model="#smiley"
