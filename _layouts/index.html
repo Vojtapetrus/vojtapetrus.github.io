@@ -52,7 +52,7 @@ layout: page
 </section>
 
 <!-- Team Section -->
-{% if site.board-members.size > 0 %}
+
 <section id="team" class="bg-light-gray">
     <div class="container">
         <div class="row">
@@ -62,23 +62,24 @@ layout: page
             </div>
         </div>
         <div class="row">
-            {% for board-member in site.board-members %}
-            <div class="col-sm-4">
+            {% for member in site.board-members %}
+
+              <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="{{ board-member.image }}" class="img-responsive img-circle" alt="">
-                    <h4>{{ board-member.name }}</h4>
-                    <p class="text-muted">{{ board-member.author }}</p>
+                    <img src="{{ member.image }}" class="img-responsive img-circle" alt="">
+                    <h4>{{ member.title }}</h4>
+                    <p class="text-muted">{{ member.author }}</p>
                    <!-- <ul class="list-inline social-buttons">
                         {% for network in member.social %}
                         <li>
                             <a href="{{ network.url }}">
                                 <i class="fa fa-{{ network.title }}"></i>
                             </a>
-                        </li> -->
-                        {% endfor %}
+                        </li> 
 
+                         {% endfor %}
                 </div>
-            </div>
+            </div> -->
             {% endfor %}
         </div>
         <div class="row">
@@ -88,7 +89,7 @@ layout: page
         </div>
     </div>
 </section>
-{% endif %}
+
 
 <!-- Service Start -->
 <section id="service">
