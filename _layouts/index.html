@@ -62,9 +62,10 @@ layout: page
             </div>
         </div>
         <div class="row">
+          
             {% for member in site.board-members %}
 
-              <div class="col-sm-4">
+            <div class="col-4">
                 <div class="team-member">
                     <img src="{{ member.image }}" class="img-responsive img-circle" alt="">
                     <h4>{{ member.title }}</h4>
@@ -81,6 +82,8 @@ layout: page
                 </div>
             </div> -->
             {% endfor %}
+        </div>
+        </div>
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
