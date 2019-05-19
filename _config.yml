@@ -5,6 +5,8 @@ collections:
   board-members:
     title: Board Members
     output: false
+    Title: job
+    Image: "/uploads/990%20copy.png"
   posts:
     title: Posts
     output: true
