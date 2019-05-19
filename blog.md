@@ -1,6 +1,9 @@
 ---
+layout: blog
+<<<<<<< HEAD
+title: Blog
+permalink: "/blog/"s
 ---
-
 =======
 ---
 
