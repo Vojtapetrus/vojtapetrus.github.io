@@ -5,7 +5,7 @@ collections:
   board-members:
     title: Board Members
     output: false
-    Job-Title: true 
+    Job-Title: true
     Image: true
   posts:
     title: Posts
