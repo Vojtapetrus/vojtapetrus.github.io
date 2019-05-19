@@ -13,6 +13,13 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: board-members
+  values:
+    author: ''
+    category: ''
 keep_files:
 - CNAME
 - ".git"
@@ -28,11 +35,3 @@ descriptions:
   desc: Posts describing Jekyll setup techniques.
 - cat: dummy
   desc: Just some placeholder posts, lorem ipsum and the rest.
-defaults:
-  -
-    scope:
-      path: ""
-      type: "board-members"
-    values:
-      author: ""
-      category: ""
