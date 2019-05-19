@@ -4,7 +4,7 @@ timezone: UTC
 collections:
   board-members:
     title: Board Members
-    output: false
+    output: true
     Job-Title: true
     Image: true
   posts:
