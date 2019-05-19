@@ -1,6 +1,9 @@
 ---
+layout: contact
+<<<<<<< HEAD
+permalink: "/contact/"
+layout: page
 ---
-
 =======
 ---
 
