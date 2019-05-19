@@ -8,8 +8,8 @@ layout: page
     <div class="row">
       <div class="col-md-10 col-md-offset-2">
         <div class="block">
-          <h1 class="animated fadeInUp">A DIGITAL MARKETING &#38; <br> DESIGN AGENCY</h1>
-          <p class="animated fadeInUp">We love the Web and the work we do. We work closely with our clients to deliver the best possible solutions for their needs</p>
+          <h1 class="animated fadeInUp">{{ page.introtext-head }}</h1>
+          <p class="animated fadeInUp">{{ page.introtext-body }}</p>
         </div>
       </div>
     </div>
@@ -22,7 +22,7 @@ layout: page
       <div class="col-md-7 col-sm-12">
         <div class="block">
           <div class="section-title">
-            <h2>About Us</h2>
+            <h2>{{ page.section-1 }}</h2>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
           </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id </p>
@@ -65,13 +65,13 @@ layout: page
           
             {% for member in site.board-members %}
 
-            <div class="col-4">
+            <div class="col-sm-3">
                 <div class="team-member">
-                    <img src="{{ member.image }}" class="img-responsive img-circle" alt="">
+                    <img src="{{ member.image }}" class="img-circle img-responsive" alt="">
                     <h4>{{ member.title }}</h4>
                     <p class="text-muted">{{ member.author }}</p>
-                   <!-- <ul class="list-inline social-buttons">
-                        {% for network in member.social %}
+                      <ul class="list-inline social-buttons">
+                        {% for network in site.board-members.social %}
                         <li>
                             <a href="{{ network.url }}">
                                 <i class="fa fa-{{ network.title }}"></i>
@@ -79,11 +79,11 @@ layout: page
                         </li> 
 
                          {% endfor %}
-                </div>
-            </div> -->
+                      </ul>
+          </div>
+        </div>
             {% endfor %}
-        </div>
-        </div>
+        
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
