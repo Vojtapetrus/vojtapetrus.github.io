@@ -5,21 +5,21 @@ collections:
   board-members:
     title: Board Members
     output: false
-    Title: job
-    Image: "/uploads/990%20copy.png"
+    Job-Title: true
+    Image: true
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
     output: true
-exclude:
-- "/vendor/"
-- Gemfile
-- Gemfile.lock
-- README.md
-- LICENSE.md
-- "*.gemspec"
+defaults:
+- scope:
+    path: ''
+    type: board-members
+  values:
+    author: ''
+    category: ''
 keep_files:
 - CNAME
 - ".git"
