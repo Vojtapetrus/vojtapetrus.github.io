@@ -2,6 +2,9 @@
 title: Airspace
 timezone: UTC
 collections:
+  board-members:
+    title: Board Members
+    output: true
   posts:
     title: Posts
     output: true
