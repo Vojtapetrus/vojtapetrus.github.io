@@ -1,7 +1,6 @@
 ---
+layout: blog
+title: Blog Page
+permalink: /blog
 ---
 
-=======
----
-
->>>>>>> c578605e3a142f3a6209f95663b018182f197126
