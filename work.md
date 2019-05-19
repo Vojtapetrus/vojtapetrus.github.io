@@ -1,9 +1,6 @@
 ---
-layout: work
-<<<<<<< HEAD
-permalink: "/work/"
-layout: page
 ---
+
 =======
 ---
 
