@@ -17,10 +17,7 @@ defaults:
     type: board-members
   values:
     author: ''
-<<<<<<< HEAD
     image: ''
-=======
->>>>>>> 7104468b63f3866351779f245030d889b95f4ff0
     category: ''
 keep_files:
 - CNAME
