@@ -1,5 +1,5 @@
 ---
-title: Airspace
+title: ECF demo
 timezone: UTC
 collections:
   board-members:
@@ -17,6 +17,7 @@ defaults:
     type: board-members
   values:
     author: ''
+    image: ''
     category: ''
 keep_files:
 - CNAME
