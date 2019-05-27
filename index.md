@@ -1,7 +1,7 @@
 ---
-title: English College Foudnation
-layout: index
-introtext-head: English College Foundation
+title: English College Foundation
+introtext-head: English College
 introtext-body: Lorem Ipsum
+layout: index
 ---
 
